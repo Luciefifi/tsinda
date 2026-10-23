@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# official source documents (re-downloadable, see content/sources/README.md)
+content/sources/**/*.pdf

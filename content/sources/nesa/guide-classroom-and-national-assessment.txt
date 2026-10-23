@@ -1,0 +1,1036 @@
+1
+   SIMPLIFIED GUIDE TO
+ CLASSROOM-BASED AND
+
+            NATIONAL
+ASSESSMENTS IN RWANDA
+
+                                                                                                                    2
+Contents
+
+PART 1: OVERVIEW OF CURRICULUM AND ASSESSMENT POLICY                            4
+
+Introduction                                                                    4
+
+Section A: Difference between old and new curriculum                            4
+
+Section B: Key Concepts in Competence-based Assessment                          5
+
+Section C: Assessment Standards                                                 7
+
+Section D: Frequently Asked Questions                                           8
+
+PART II: TEACHER'S GUIDE TO CBC ASSESSMENT                                      9
+
+Section A: Linking Tasks to Assessment                                          9
+
+Section B: Classroom Assessment Techniques                                      10
+
+Section C: Giving Feedback                                                      12
+
+Feedback Guidelines:                                                            13
+
+ Provide feedback as soon as possible after the practice                        13
+
+ Make feedback specific.                                                        13
+
+ Keep feedback appropriate to the developmental stage of the learners.          13
+
+ Emphasize praise and feedback on correct performance.                          13
+
+ When giving negative feedback, show how to perform correctly.                  13
+
+ Help your students to focus on `processes' rather than only on final answers.  13
+
+Section D: Classroom Portfolio Assessment                                       13
+
+Types of portfolio Activities                                                   14
+
+Assigning Portfolios                                                            14
+
+Section E: Using Classroom Assessment to Prepare for Exams                      15
+
+Case study Example: A `level entrepreneurship                                   15
+
+Competence-based Questions: Demonstrate Higher-order Thinking in context        15
+
+Preparing Students for assessment                                               16
+
+Managing Workload with Group Work & Peer Grading                                17
+
+Section F: Setting Questions for CBC                                            18
+
+Section G: Grading and Recording classroom assessment                           20
+
+PART III: REB Guide to CBC Assessment                                           21
+
+Section A: REB's Role in Assessment                                             21
+
+Section B: National Exams                                                       23
+
+Marking                                                                         24
+
+Examination Validity & Reliability                                              24
+
+                                                                                3
+PART 1: OVERVIEW OF CURRICULUM AND ASSESSMENT POLICY
+
+     Introduction
+     Difference between old and new curriculum
+     Key Concepts in Competence-based Assessment
+     Assessment Standards
+     Frequently Asked Questions (FAQ's)
+
+Introduction
+
+One of the national priorities of the education system in Rwanda is to ensure that the education quality
+continues to improve through closer integration of curriculum, pedagogy and assessment. This Guide to
+Assessment takes into account these dimensions as they have complimentary functions. The purpose of this
+Guide, is to provide conceptual understanding of the issues in assessment and to offer guidelines, techniques,
+tips and practical examples of both formative and summative assessments at school, district and national levels.
+It is aimed at a wide audience including teachers, educational planners, managers, policy makers and other
+stakeholders in education who have a role or interest in the implementation of the competence-based
+curriculum, and competence- based assessment in particular.
+
+Section A: Difference between old and new curriculum
+
+The Rwandan competence-based curriculum is learner-centered, and addresses learners' individual needs,
+interests, abilities and backgrounds. Thus, creating an environment where learning activities are organized in a
+way that encourages learners to construct their knowledge either individually or in groups in an active manner.
+This means that teaching and learning are based on skills rather than dwelling only on knowledge or the
+cognitive domain of learning. Learners are expected to work on competences through units, with specific
+learning outcomes broken down into knowledge, skills, values and attitudes. These will all be evaluated against
+a set of standards. The activities are learner-centered. The teaching and learning process is also expected to be
+inclusive and every individual including boys and girls valued.
+
+There are three key differences between the new competence-based curriculum and the old knowledge-based
+curriculum:
+
+1: Knowledge, Skills, Values & Attitudes
+The Rwandan Competence-Based Curriculum Framework (2015) defines competence as `the ability to use an
+appropriate combination of knowledge, skills and attitudes, values and behavior to accomplish a particular task
+successfully' (p. 26). In line with international best practice, in the Rwandan curriculum, basic competences are
+derived from broad subject-based competences and objectives set out in the syllabus.
+
+2: Active Learning
+In the old curriculum, learners primarily listened to teachers lecture. In the new curriculum, learners will learn
+through activities, and discover new skills through research and activities. This difference is often described as a
+transition from teacher-centered to learner-centered teaching practice. Additionally, the new curriculum
+expands the scope of learning beyond content, to also account for skills, values and attitudes.
+
+                                                                                                                                      4
+             OLD CURRICULUM                             NEW CURRICULUM
+
+ Lecture Based                              Active Learning
+
+ The teacher provides subject content       learners build new knowledge from prior
+    concepts                                   knowledge
+
+ The teacher focuses on content and what    Focus on what learners can do and apply
+    learners can know and memorize rather      it in different situations.
+    than what they can do.
+
+3: Assessment Standards
+The new curriculum gives clear competence standards for what a learner should be able to achieve at the end of
+every cycle, year, and unit for every subject.
+
+Section B: Key Concepts in Competence-based Assessment
+
+Competence-based Assessment
+The Competence-based Curriculum Framework (2015) defines competence-based assessment as `an assessment
+process in which the learner is confronted with a relevant learning challenge and asked to put into practice what
+has been learned in order to resolve or overcome this situation'. It states that one of the major purposes of
+assessment is to assess the extent to which learning objectives including competences have been achieved, and
+to identify which schools and learners need pedagogical advice and strategic intervention.
+
+Generic Competences
+Generic competences promote the development of the higher order thinking skills. They do not belong to a
+single subject area. Instead, they apply across the curriculum and teachers are supposed to develop and apply
+these in different activities of their subjects during classroom teaching. The generic competences help students
+apply their subject learning in a range of situations, and as such they contribute to the development of subject
+competence. For teachers to become familiar with these competences, they need to set up activities and tasks in
+the classroom and then use checklists to identify the aspects of the competence, either in the talk and actions of
+learners in the classroom or in the written work. There are standard Generic Competences which teachers must
+use to assess students:
+
+                                                                                                                                      5
+               Team
+
+               Work
+
+          ICT              Creativity
+
+Numeracy          Generic  Communication
+               Competence
+
+                      s
+
+Problem                    Literacy
+Solving
+                Critical
+               Thinking
+
+Summative Assessment
+At the end of a section of work or a learning unit, the teacher must assess what has been learned. This is also
+known as "Assessment of Learning" to establish and record overall progress of learners towards full
+achievement. Summative assessment mainly takes the form of written tests at the end of a learning unit or end
+of the month, end of a term, school year or cycle.
+
+Formative Assessment
+Formative assessment is aimed at giving learners support and feedback. Teachers need to plan time into the
+instructional process to support their students by being aware of their level of learning in the classroom. This is
+also known as "Assessment for learning" since it enables the teacher to provide ongoing guidance and direction
+during the learning process.
+
+Continuous Assessment
+Continuous assessment is used to give either summative or formative assessment information on a continuous
+or ongoing basis. Rwandan teachers are required to keep records of each learner's performance on assessments
+that will later factor into a final assessment score. This is also known as "Assessment as Learning" since it gives
+learners credit for their progress and learning gains over time.
+
+Classroom-based Assessment
+Assessment in the classroom involves using both formal and informal methods to check whether learning is
+taking place. Classroom assessment is given throughout the school year at classroom and school level in order
+to have a complete picture of the learners' progress and achievements in subject concepts and in competences. It
+helps teachers to develop appropriate instructional strategies to improve on the teaching-learning process.
+Classroom assessment should look at: Knowledge and understanding; practical skills, attitudes and values, and
+generic competences.
+
+Assessment results are often recorded as scores or grades that are then factored into a student's permanent
+academic record, whether they end up as letter grades on a report card or scores used in the university admission
+process.
+
+                                                                                                                                      6
+Section C: Assessment Standards
+
+National Learning and Assessment Standards define what every student in the country is expected to know and
+be able to do. They specify the characteristics of the performance expected from the pupils. But they do not
+pretend to cover all the content of what should or could be learnt; neither are they prescriptive about what could
+or should be taught. National Learning and Assessment Standards refer to learning expectations in the context
+of educational reforms and put these expectations at the center of educational policy. The new National
+Learning and Assessment Standards that are introduced here are based on the new syllabus in each subject.
+They join together assessment of the knowledge, subject skills and generic competences in each unit of the
+subjects. They are the Standards for all learners to aspire to. Learners will show they can achieve the
+Assessment Standards by using their knowledge, skills and competences to solve real-life problems and to
+progress in learning. The Assessment Standards are adaptable so they are accessible to all learners.
+
+The National Learning and Assessment Standards, provide the link between the curriculum and the different
+forms of assessment. They are used in teachers' day-to-days assessment, in continuous assessments during the
+teaching of topics and units, and in summative assessments at school, district, and national levels.
+
+There are four sets of standards: Subject Objectives (standards for a cycle); Subject Key Competences
+(standards for the year); Unit Assessment Criteria (standards per unit), and Generic Competence Standards
+(cross-cutting). The table below gives details about these standards:
+
+Name         of     Frequency  Example
+
+standard            Cycle      At the end of maths for upper primary, students will be able to...
+                    Year       At the end of primary four in maths, students will be able to...
+Subject objectives  Unit       At the end of the unit on XYZ, students will be able to...
+                    On-going   At the end of the unit, students will display teamwork by doing...
+Subject      Key
+
+Competences
+
+Unit Assessment
+
+Criteria
+
+Generic
+
+Competences
+
+Steps to follow teaching using competences and standards include the following:
+
+     1 Look at all the units for the term and their Learning and Assessment Standards
+     2 Plan to assess 3 competences more formally during the term
+3. Choose which competences to assess, if there are too many to include all of them
+     4 Identify the Units and competences to be assessed and plan the tasks which will allow learners to develop
+     the required capabilities, and show evidence of their learning
+     5 In the second half of teaching a topic/unit, build in activities which will give evidence to be assessed
+     against the Standard
+     6. Give the tasks and assess as many learners as possible either in the lesson or marking written work
+     Record the results
+
+     8. Review how well learners have performed the task, and decide if overall, they will all succeed in
+     achieving the Standard by the end of the unit
+
+     9. Give feedback to learners to help them achieve the Standard with help or independently
+     10 During the rest of the time teaching the unit, assess any learners for whom there is no assessment, watch
+     for new evidence of progress and revise records accordingly
+
+                                                                                                   7
+Remember that doing and recording these assessments can take a long time for a whole class so plan to keep it
+simple. Careful preparation is essential to ensure that the time for assessment does not detract too much from
+the time for teaching.
+
+Section D: Frequently Asked Questions
+
+As a teacher of a subject, do I have to teach skills and subject content?
+Yes! With CBC, all teachers are now responsible for developing students' skills and developing content
+knowledge?
+Will we assess students differently given we are now teaching skills?
+Yes! Before, teachers assessed students with exams that tested for knowledge.
+How do I use the assessment standards?
+
+     Teachers should look at Assessment Criteria and Generic Competences to set continuous assessment
+         activities throughout the term.
+
+     Teachers should look at Key Competences to set end of year exams.
+     Teachers should look at Subject Competences to prepare students for national exams.
+Where can I find these standards for my subject?
+In the new CBC curriculum, this can also be found on the REB website.
+
+                                                                                                                                      8
+PART II: TEACHER'S GUIDE TO CBC ASSESSMENT
+
+          Linking Tasks to Assessment
+          Assessment Techniques
+          Giving Feedback
+          Portfolios
+          Preparing Students for Exams
+          Setting CBC Exam Questions
+          Grading and Recording
+          Frequently Asked Questions
+
+Section A: Linking Tasks to Assessment
+
+Devising tasks for the assessment of competences
+
+For each unit in the syllabus there are standards, which can be found on the REB website. In teaching that
+unit, teachers need to set tasks that relate to the Standards. Teachers also need to set assessment criteria
+for the task given.
+
+Below is an example of how a standard was used to set a task and how assessment criteria are used to
+assess students' achievements in performing the task. It shows how standards, tasks and assessment are
+all connected.
+
+P4 SET Example
+
+Standard
+Be able to group animals according to their lomotion, feeding, respiration and reproductive modes.
+
+Task
+This can be a task for pairs working together or for individuals.
+Using charts of animals, field visit, classify animals according to backbone and their characteristics
+referring to lomotion, feeding, respiration and reproductive modes.
+
+Assessment criteria
+Evidence for the standard:
+
+     The places and their coordinates accurately recorded
+     Evidence for the Research and problem-solving competence:
+     Used the resources efficiently, using skills of finding and checking information
+     Learners work independently with the guidance of the teacher.
+
+The focus for the teacher's assessment is on learners applying their knowledge and their ability to find
+out information from sources, rather than being told the answers and having to remember them.
+
+During this planning make sure that the amount of time for this assessment does not take away much of
+the teaching time. Remember that doing and recording these assessments can take a long time for a
+whole class so plan to keep it simple.
+
+                                                                                                                                      9
+When planning to teach a unit, teachers should plan tasks that they will use to make assessments. There
+is no need to make this into a formal test; it can be part of ongoing teaching.
+Teachers should:
+
+1. Choose the context which help learners apply their knowledge in different contexts from how it has
+been taught.
+2. Devise the task which will involve learners showing how far they have grasped the knowledge, can
+apply it in a new context and can use the skills of a relevant Competence.
+3. Note down the Assessment Criteria which will be used as a basis for marking. This should indicate
+what learners who achieve the standard will do to understand the knowledge and its application,
+including any Generic Competence that will be assessed. The criteria should clearly show how the
+standard will be applied in this task.
+4. Choose an appropriate method and technique to assess, such as by observing, having dialogue and
+interactions with learners, organizing practical investigations, presentations and discussions, questioning
+orally or on paper and pencil. There can be a mixture of these techniques. Usually there will be a mixture
+of practical activities and written work.
+
+The assessment through observation and marking written work should be made directly using the
+Assessment Criteria. A good Assessment Criteria will allow a teacher (and the learner) to easily see if the
+criteria has been met or not. If marks are used, it should be clear how the marks relate to success or not,
+against the criteria.
+
+Each term there should be a minimum of 3 or 4 assessments. In pre-primary and lower primary, the
+assessments may take a shorter time but teachers need to judge the time for teaching and fit assessment
+into it, rather than making assessment too important.
+
+It is important that the learners undertake the tasks as independently as possible, or the level of support
+will affect the judgment of whether the Standard has been achieved.
+Often this can be done informally through questioning or even allowing peer review or the learners to
+report on their own perceptions against the Statement of Achievements but it will also involve some
+more formal assessment of each learner's progression through the individual unit statements towards
+the overall standard.
+
+Section B: Classroom Assessment Techniques
+
+Observation:
+This is where the teacher gathers information by watching learners interacting, conversing, working,
+playing, etc. Observation is a very useful tool for collecting assessment data because, it does not
+interrupt or upset the daily life of classrooms.
+
+Some activities can only be assessed through observation. Most Rwandan schools offer sports facilities
+for playing volleyball in physical education classes. The most effective way for the physical education
+teacher to assess volleyball skills is through the observation of skills such as students executing a serve, a
+handstand or forward roll as it happens. Then the teacher can make notes on the student's performance.
+
+Observation is an important technique in assessing these tasks. It means looking for:
+
+·  Words and actions which give evidence for competences and attitudes
+
+·  Words and actions which show subject knowledge and application
+
+                                                                                       10
+·  Whether learners complete a task successfully
+
+Teachers can also observe how well their instructions are followed. In a science class, the teacher may
+issue out instructions as follows:
+
+Fetch your safety glasses
+Check that your shirt or blouse cuffs are tucked into your lab coat.
+Keep the Bunsen burner flame yellow when not in use.
+Wear your gloves when handling acids.
+
+Again, the only way for the teacher to assess that the instructions are being followed which has
+implications for safety and successful performance on the experiments is through observing student
+behavior.
+
+Oral questioning:
+This is a process which requires a learner to respond verbally to questions.
+Example:
+A geography teacher conducts the following conversation in form of oral questioning:
+Teacher: In what areas of Rwanda can one see the effects of soil erosion?
+Student: In the highlands of Rwanda. Teacher: How does that happen?
+
+Usually in the mountainous areas of Rwanda such as Musanze and Rubavu, there is heavy rainfall which
+washes away the top soil resulting in soil erosion.
+
+Teacher: Can you compare the effects of rain and wind on soil erosion?
+
+Student: Yes, when a lot of rain falls, the water carries the soil down to the valleys and rivers, but the
+wind normally blows away the tall trees and some soil if there is no vegetation. I think the rain is worse
+than wind in soil erosion.
+Teacher: Thank you, and then asks the whole to discuss this further in groups.
+
+In oral questioning, Rwandan teachers may make use of both convergent questions (one correct answer
+required), e.g.: What is the population of Rwanda? What is 12 x 14? They may also use divergent
+questions (different answers are appropriate), e.g.: Assess the factors that influence the economic growth
+of Rwanda. Or: Why would students disagree with their teacher?
+
+Class exercise:
+Tasks that are given during the learning/ teaching process. In most cases in Rwanda, teachers begin the
+lesson by introducing the topic and the objectives of the lesson. Then the teacher presents some material
+to the whole class, after which he/she may ask the students to work on an exercise in groups or as
+individuals. The exercise may be assessed by the teacher or by the class.
+
+Homework and Assignments:
+Tasks assigned to learners by their teachers to be completed outside the class. Common homework
+assignments may include a quantity or period of reading to be performed, writing, problems to be solved,
+a school project to be built (display), or other skills to be practiced. This is a very common practice in
+Rwandan schools.
+
+                                                  11
+Project work:
+A product which requires a learner to plan, carry out, and make a project presentation which is then
+assessed by the teacher or by peers.
+
+Interview:
+A process where a learner is expected to respond to questions concerning his or her learning.
+
+Example:
+In a classroom situation, the teacher selects individuals to interview (interviewer), and those to be
+interviewed (interviewee). This may also be done through the teacher asking for volunteers. In this case,
+the interviewee answers spontaneously for the person she pretends to be. The learner must have
+sufficient information about the topic. For instance, in science, one student may represent a sick person,
+and the other pretends to be a doctor (with white coat on) asking the patient what the problem is, how
+she feels, and how the problem came about. Then the rest of the class observe and later give constructive
+feedback in terms of lessons learned.
+
+Role Playing:
+A performance which requires a learner to act out roles of other people in society in order to learn from
+their experiences. Rwandan students may dramatize their understanding of fictional characters or
+historical persons by acting a role showing certain behaviors and personal characteristics of these
+people, and then assessed on the part played and how well the character has been portrayed or
+understood.
+
+Example:
+In order to create awareness of the social problems of teenage pregnancy in Rwandan schools, a story
+may be provided about a girl student getting pregnant, and later dropping out of school. Some students
+are selected in class to role-play this social phenomenon, with some, imagining or pretending that they
+are the characters in the story. Some may also pretend to be parents. After the play, the teacher may ask
+students to write in groups some of the challenges of teenage pregnancy, and the implications for their
+education and lives in society.
+
+Debate:
+A performance which puts one learner, or team of learners, against another learner, or team of learners,
+to logically argue issues. The assessment may be individual or in a group.
+Example:
+Teacher informs students that they are going to be debating. She asks the class to brainstorm possible
+topics for debate. Students suggest topics and the teacher writes them on the chalkboard. Then she
+involves the whole class in selecting only one topic for debate tilted: `It is better to live in rural areas than
+in towns. Names are suggested for the Chairperson, time keeper, and those who will support and oppose
+the motion or theme. As the students debate, the teacher observes and listens for skills such mastery of
+grammar, oral expressions, fluency, logical reasoning, etc. This gives students practice and self-
+confidence, but also helps the teacher in future planning of her lessons.
+
+Section C: Giving Feedback
+
+In the past, Rwandan teachers were used to teaching and then giving a test at some point. Some of these
+tests were almost routinely given to students and then recorded at the end of a month or term or year.
+However, assessment for the competence-Based curriculum requires teachers to use formative
+assessment more often and to use different types in the classroom. This will give an indication of the
+progress of the learner so that corrective action or remedial instruction can be arranged for students who
+
+                                                                                                                                     12
+show some learning difficulties, but also for the talented students receive additional tasks/advanced
+work. The end of term and end of year tests provide additional evidence of standards and also allow
+teachers to verify that they are applying the standards correctly as well as providing a summative
+statement of the milestones on the way to achieving the standard.
+
+The main purposes of feedback are to clarify what good performance is and why. When teachers point
+out what the errors are, and tell students why they are wrong, students learn more appropriately using
+the teacher's guidance. Similarly, when teachers praise accurate answers, they identify good models for
+students to follow in the future. Identifying both correct and incorrect answers, and the reasons why
+answers are correct or incorrect, facilitates the development of self-assessment. Learners will get to
+know where and why they made some errors, and they will be in a better position to pause and ask
+themselves the right steps for next time. Feedback also encourages teachers and peer dialogue around
+learning ­ good feedback encourages students to approach their teachers for further and more guidance,
+thereby creating a good environment for regular communication and consultation which creates interest
+in learning.
+
+Feedback Guidelines:
+      Provide feedback as soon as possible after the practice
+      Make feedback specific.
+      Keep feedback appropriate to the developmental stage of the learners.
+      Emphasize praise and feedback on correct performance.
+      When giving negative feedback, show how to perform correctly.
+      Help your students to focus on `processes' rather than only on final answers.
+
+Section D: Classroom Portfolio Assessment
+
+Competence-based assessment is an assessment process in which a learner is confronted with a complex
+situation relevant to his/her everyday life and asked to look for a solution by applying what has been learned
+(knowledge, skills, competences and attitudes). Evidence of learning is then collected and used as the basis on
+which judgments are made concerning learner's progress against the assessment standards. This evidence is
+kept in a portfolio. Portfolios are not topic notes. Rather, as teachers assign students classroom assignments and
+projects, the work that students do during these activities and projects will be kept in a student notebook called a
+portfolio. Portfolios show work that students completed by doing practical activities.
+
+Learner portfolios are a collection of evidence, prepared by the learner and evaluated by the teacher to
+demonstrate mastery, comprehension, application, and synthesis of a given set of concepts. They are a specific
+type of performance assessment that involves the systematic collection of a student's work products. The
+purpose of the portfolio is to enhance and measure learning by keeping records of best work, representative
+products, reflections showing their attitudes growth, and learning progress. The teacher will select the items to
+include in the portfolio. There should be at least 6 portfolio assignments per year or two portfolio assignments
+per term. The grading and collection of portfolio assignments can follow the normal schedule of mid-term and
+end of term grading.
+
+                                                                                                                                     13
+Types of portfolio Activities
+Portfolios are the documented work from practical activities, examples may include:
+
+Sample Portfolio Activity                             Evidence Submitted in Portfolio
+Learners are required to create a role play to        Script for the role play
+demonstrate the assessment standard.                  Recording or Written Interview Report Summary
+Learners are required to interview others to do       Written Report of key argument points
+research related to the assessment standard.          Ledger document with calculations
+Learners are required to debate to demonstrate the    Drawing of the plan and stages of the process
+assessment standard.
+Learners are required to keep financial records to
+demonstrate the assessment standard.
+Learners are required to create a plan or process to
+demonstrate the assessment standard.
+
+Portfolios show evidence that practical exercises have been completed by learners which demonstrate the
+assessment standards and competences in the subject syllabus. Do not include quizzes, tests or class notes as
+part of the portfolio. In the past, teachers taught and then gave exercises or tests to check student understanding
+based on the content of their respective subjects. This was mainly in the cognitive domain assessing intellectual
+ability or simply on the capacity to memorize information. All this must change. The competence-based
+curriculum demands that students acquire skills and competences that they can apply in a range of situations, at
+school, home and later at work.
+
+Assigning Portfolios
+When planning classroom assessment, the teacher sets tasks. Tasks are activities designed in the learning
+environment by the teacher in order to enable learners to develop and display their knowledge and
+understanding, and demonstrate the acquired skills, competences, attitudes and values.
+
+Use observable action verbs consistent with the level of learning expected, considering all the low,
+medium and higher order thinking skills and competences (Bloom's taxonomy). Examples of verbs used
+in setting tasks and criteria:
+
+  I. Low Order (knowledge and understanding): define, name, list, identify, label, match, outline, e.g.
+         Label the parts of the flower indicated on the drawing provided
+
+ II. Medium Order: Explain, describe, examine, classify, express, summarize, compute, relate, show,
+         solve, use, E.g. Using a lens, examine the specimen provided and describe its external features
+
+III. Higher Order: compare, analyze, illustrate, differentiate, compose, construct, design, formulate,
+         evaluate, justify, interpret, E.g. Compare and contrast education system of Rwanda before and
+         after 1994
+
+The new set of Learning and Assessment Standards and very detailed Statements of Achievement specify
+what is to be assessed and how performance should look like. It is not necessary to have detailed criteria
+related to levels of achievement. Instead the focus is on whether or not a learner has reached the
+standard (or is on target to meet the standard) and, if not, what more they need to do to demonstrate it.
+To help apply the Standard to a specific task some adaptation may be needed to make explicit how the
+Standard applies in particular context or task.
+
+                                                                                                     14
+Section E: Using Classroom Assessment to Prepare for Exams
+
+At the end of every term, learners will take a summative assessment in the form of an exam. Termly Exams
+should include both questions that test subject knowledge, and competence-based questions that test subject
+competency. Assigning practical activities through portfolios will prepare students for the termly and end of
+year exams.
+
+Case study Example: A `level entrepreneurship
+Teacher Harriet is an A' level Entrepreneurship teacher in Kayonza district. During the term she uses classroom
+portfolio assessment requiring her students to complete three portfolio assignments aligned to the CBC
+curriculum. The first assignment was to create a Goal Tree which is a visual showing the learner's personal and
+career goals for their life. The second assignment was to create and market a product or service for sale. And the
+last portfolio assignment was for her learners to interview businesses at a local exhibition. Learner's completed
+these three assignments before the end of term exams and peers reviewed each other's work and gave feedback
+for improvement. Teacher Harriet kept a record sheet of all the learners who had submitted each of their
+portfolio assignments. For the end of term examination, districts set the following CBC questions which linked
+classroom and termly assessment directly:
+
+Sample Exam Questions
+  Section A
+    1. Is Entrepreneurship of any importance to the society? Explain. (10 marks)
+    2. Explain the importance of business laws in Rwanda. (10 marks)
+
+     Section B
+
+    Practical Question: Choose 1 of the following to answer. (10 marks)
+    a. Draw your Goal Tree.
+    b. If you are to market a new product made by your School Business Club, which marketing strategy would
+
+         you use? Illustrate it.
+    c. Write 5 interview questions to ask about a business during an exhibition to accurately determine how
+
+         successful the business is.
+
+Competence-based Questions: Demonstrate Higher-order Thinking in context
+
+Competence-based questions allow students to demonstrate their competency as a higher-order thinking skill
+(such as applying, creating) in a context that is similar to a real-world context. Questions which provide a real-
+world scenario allow the learner to engage their higher-order thinking skills, and practically use their knowledge
+and skills.
+
+An example of a question without a context would be "Write a story about an animal in the forest". With this
+question, you can test English writing, sentence structure and vocabulary, but there is no real-world context
+provided to demonstrate higher-level thinking or generic competences. An example of that same question with a
+context would be "Think about your recent walk around the community. Write a story about one or several
+animals that live in your community. How do they live together with humans?" This question has a clear and
+relevant context and requires learners utilize their knowledge of English as well as think about their community
+and relationships between humans and animals. This might allow learners the opportunity to draw from their
+knowledge within other biology or environmental studies subjects or rely on their lived experiences and
+
+                                                                                                                                     15
+observations. Thus, by adding a real-world context to examination questions, teachers and test-setters can target
+higher-order, practical competences.
+Sample question that combines knowledge & skills
+
+Preparing Students for assessment
+As teachers assess students throughout the year, they should apply Bloom's Taxonomy. This section includes
+some examples of key behavioral or action verbs that they may use or select from as they engage in setting
+quizzes in the competence-based curriculum. This is because the competence-based curriculum demands higher
+levels of understanding and critical thinking. This demands demonstration of skills and competences in all
+subject areas without exception. The teachers and other examiners are expected to give clear instructions, and
+students are required to think more critically than ever before.
+Examples:
+Communication: involves discuss, show, perform, propose, argue, from different levels and cannot be assumed
+to be a hierarchy where one is necessarily more difficult than another.
+Cooperation: involves many of these skills used in groups with other learners
+Creativity and innovation: involve interpret, change, dramatize, compose, construct, make, produce, decide and
+is also using other actions to achieve these.
+Research and problem solving: involves review, select, compare, design, develop, organize, predict, conclude,
+and prove, amongst others.
+
+                                                                                                                                     16
+Critical thinking: involves review, analyze, distinguish, evaluate, justify, and argue, amongst others.
+
+Bloom's categories of (Applying, Analyzing, evaluating and creating), are now more prominent as they relate to
+the application of knowledge and competences. They do not provide the level of difficulty. Other factors,
+including the familiarity and complexity of the topic, the level of abstraction of the content, the nature of
+support and scaffolding in a question, all contribute to the level of demand and difficulty. Examiners will need
+to structure questions carefully, not relying solely on the verbs to signal difficulty, so that learners can
+show the subject skills and competences in meeting the demand of the Learning and Assessment Standards.
+
+Example of clear instructions and some items that demand critical thinking:
+A comprehension reading passage is presented, with the following instructions:
+Read the questions carefully. Think about what is being asked. Look carefully at diagrams because they help
+you answer the questions. After reading the passage, they answer the questions on the passage which demand
+higher level thinking skills such as the following:
+Identify Jane's opinion in the sentences above and explain why it is an opinion.
+In the fourth paragraph, describe how the attitude of other students changes?
+Show how the author organizes information in this story.
+Analyze the purpose of the 10th sentence above.
+Why does Emmanuel become interested in information technology?
+Where is there a major contrast in the story?
+Assess Peter's problems in the story above and explain how he overcomes the challenges.
+Justify the actions or decisions taken by Peter in solving his problems or overcoming his challenges.
+Argue for, or against the reasons why Mary is mentioned at the end of the story.
+
+From the example above, it can be seen that the competence- based curriculum makes different demands. There
+will be many fewer questions derived from the knowledge level. The other levels relate to different skills and
+competences and so to different National Learning and Assessment Standards and Statements of Achievement
+which have different demands as given in the examples below:
+
+Managing Workload with Group Work & Peer Grading
+The need to continually assess and record learners' progress can add to a teacher's workload if not well
+managed, especially with large class sizes. The aim of the new curriculum is to make it easier for teachers to
+teach well and ensure learners gain the skills and competences as Rwanda is striving to build a knowledge-
+based economy as an engine of development. Teacher classroom assessment is a key part of that and they need
+to become successful practitioners of the art of assessment but it is acknowledged that this is not a simple or
+easy thing to do.
+
+A good way of doing this is to use group work and have the learners identify who in the group is achieving the
+learning outcomes and who needs support. Peer support can also work well in these situations and will allow the
+learners to help each other. Higher achievers/gifted learners can help explain things to the ones who are
+struggling. The learners doing the explaining will also benefit by improving their learning as they explore the
+concepts.
+
+A similar strategy is to use class marking. Teachers do not have to mark every piece of work every time. A very
+good learning activity can be marking the outcomes of a task as a class activity. This requires the teacher to
+
+                                                                                                                                     17
+have good examples of what makes a good answer and what makes an answer that should be improved. The
+learners can then mark their own work against the criteria and improve it. It is important if asking shorter
+questions, e.g. mathematics questions, make sure to use fewer questions (for example, only 5 calculations)
+because this gives more time to go through the answers and for the learners to analyze their own work.
+
+Both these approaches highlight the benefits of not marking everything but concentrating on using the learners'
+work to guide their self-improvement.
+
+Section F: Setting Questions for CBC
+
+Questions should be set in line with CBC assessment standards. Three key practices must be applied while
+
+setting questions:
+
+1- Referencing standards from the syllabus
+
+For end of term exams, the set questions should be aligned to Unit Assessment Criteria and generic
+
+competences, as outlined in the curriculum policy.
+
+Unit Assessment Unit                     At the end of the unit on XYZ, students will be able to...
+
+Criteria
+
+Generic             On-going Standards for assessing cooperation, critical thinking, creativity, etc..
+
+Competences
+
+2- Setting Practical Questions
+Two types of questions should be set (Practical Questions and Higher-Order Questions-Bloom's-Based
+Questions). Both questions reflect best-practices for CBC.
+
+     Practical Questions
+
+Practical questions require students to create something tangible-- rather than demonstrate knowledge. These
+questions require the same level of evidence as portfolio assignments. In Portfolio Assignments, learners must
+do something in the real-world. The evidence of that action is kept in the portfolio. Practical Questions require
+students to re-create that evidence in a test-format. Some examples are below:
+
+Practical Questions: Primary Level       Practical Questions: Secondary Level
+                                         Create interview questions that an entrepreneur might ask potential
+Draw a picture that demonstrates         questions for customer discovery.
+                                         (Entrepreneurship)
+effective hand washing procedures.       Write a story that includes six elements of a plot.
+                                         (English)
+(Health)
+                                         Draw up a ledge document with calculations
+Write a story about your favorite day    (Math)
+                                         Draw a map of your community and indicate the resources it has for
+of           the          year           community development.
+                                         (Social Studies)
+(English)
+
+Draw a family tree and count how
+
+many relatives you have (History)
+
+Write a list of the food you buy at the
+
+market. Indicate how much each item
+
+costs. Add up the total cost to know
+
+how much you will spend. (Math)
+
+                                                                                                        18
+     Higher-Order Questions (Bloom's Questions)
+
+Bloom's higher-level categories of (Applying, analyzing, evaluating and creating), are now more prominent as
+they relate to the application of knowledge and to the competences. They do not provide an index of difficulty.
+Other factors, including the familiarity and complexity of the topic, the level of abstraction of the content, the
+nature of support and scaffolding in a question, all contribute to the level of demand and difficulty. Examiners
+will need to structure questions carefully, not relying solely on the verbs to signal difficulty, so that learners can
+show the subject skills and competences in meeting the demand of the Learning and Assessment Standards.
+
+Bloom's Taxonomy:
+
+Level 1: Knowledge (Identification and recall of information/facts without understanding).
+Level 2:/Understanding (Organization and selection of facts and ideas/to show understanding/demonstrating
+basic understanding of facts and ideas).
+Level 3: Applying (Use of facts, rules and principles in a new situation/solving problem by applying acquired
+knowledge, facts, techniques and rules in a different way).
+Level 4: Analyzing (Separating a whole into component parts/to examine in detail/examining and breaking
+information into parts by identifying motives or causes; making inferences and finding evidence to support
+generalizations).
+Level 5: Evaluating (Developing opinions, judgments of decisions/to justify/presenting and defending opinions
+by making judgments about information, validity of ideas or quality of work based on a set of criteria).
+Level 6: Creating (Combining ideas to form a new whole/to change or create into something new/compiling
+information together in a different way by combining elements in a new pattern or proposing alternative
+solutions).
+
+Sample Higher-Order Questions (Blooms-Based Questions)
+
+Geography (S1)              History (P8)              English (P6)               English (P4)
+
+Examine the causes and      Evaluate            the   Construct five sentences   After reading Old
+effects of natural hazards
+on human activities         consequences        of    about protecting the       Major's speech, what
+(Analyzing)
+                            European colonization of  environment   using;       message does it appeal to
+Suppose you are appointed
+as an expert in charge of   Africa (Analyzing)        "ought to" and "should"    you, compare and
+disasters in Ministry of
+Emergency Management                                  (Applying)                 contrast the situation in
+in Rwanda, what
+precautions would you       Explain the advantages    Explain the causes of      Animal Farm to the
+suggest to minimize the     and disadvantages of      environmental damage
+effect of hazards?          Indirect Rule (creating)  and suggest solutions.     Rwandan       setting
+(creating)                                            (Analyzing)
+                                                                                 (Analyzing)
+
+                            Compare the Indirect      Compose a poem telling     Create your own short
+                            Rule and Direct Rule of                              story of 350 ­ 400 words
+                            colonial administrative   people to stop destroying  using at least three
+                            policies (Evaluating)                                aspects of prose studied
+                                                                                 (creating)
+                                                      the         environment.
+
+                                                      (creating)
+
+                                                                                               19
+Section G: Grading and Recording classroom assessment
+
+Record Keeping
+
+This is gathering evidence from assessment and using them to judge the learner's performance by
+assigning an indicator against the set criteria or standard.
+
+Purposes of recording;
+
+         Tracking each learner's performance for remedial and extension activities/ actions
+         Evaluating the extent to which learners' progress matches their potential
+         Providing learners with feedback about their performance and guidance as to how to improve
+         Informing strategic planning of teaching and learning
+         Informing parents about the learning progress of their children and give advice accordingly
+
+What to record and when to record?
+
+The frequency of a particular behavior or a particular competence may be recorded for the duration of a
+lesson, or for a set time of period within a lesson or within the learning unit.
+
+At times the teacher may need to record the learner's response in order for the teacher to analyze these
+responses to redirect future instruction.
+
+Sometimes, written comments describing events or incidents that occur about the learner's behavior
+might be helpful.
+
+Methods and formats of recording
+
+For informal assessment of generic competencies, attitude, and values, either a simple checklist method
+or a rating scale or grade or both can be used to show the extent to which a learner has achieved a task
+against the set criteria.
+
+During activities, look out for what learners say and do which show whether they are reaching the
+Standard for the Unit. Keep a record sheet close to hand so notes can be made directly at the time, not
+waiting until afterwards.
+
+When assessing the learners' work teachers need to be thinking about what the learners are confident in
+and where they still need help.
+
+The teacher should keep a record of these assessments, or at the very least which students are at risk of
+not achieving the standard, so that it is clear whether a learner is on target to reach the required standard
+or whether more help is needed. This will also allow teachers to make more accurate and standardized
+assessments at the end of each term/year.
+
+At the end of the unit teachers should look at their records and decide if changes are needed. A teacher
+uses this as a basis of measuring the success of the lesson taught. Where a teacher is unsure about the
+learner's achievements, then classroom questioning and other oral and written techniques can be used
+to confirm judgments.
+
+                                                                                                                                     20
+PART III: REB Guide to CBC Assessment
+
+Section A: REB's Role in Assessment
+Annual assessments will be prepared by REB at the end of each year during the period dedicated to school
+exams at all levels with the exception of P6, S3, and S6, who will sit for national exams on specific examinable
+subjects.
+
+Schools will receive end of year exams. Teachers will proctor the exams according to the guidelines included in
+the exam booklet. Each exam will come with a grading guide. Teachers will be responsible for grading the
+exams after the students take them. Teachers must record the grades into a grade book. REB will do quality
+assurance on end of year exams.
+
+The Rwanda grading system is shown in the table below:
+
+Achievement  Achievement   Percentage    Grades      Grades A  Values for
+     level    description     Score    (Primary,       `level     letter
+                             ranges    O' level / A              grades
+
+                                          `level
+
+1            Outstanding   75­ 100     Distinction   A         A= 6 points
+
+                                       1(D1)
+
+2            Excellent     70 ­ 74     Distinction
+
+                                       2(D2)
+
+3            Very good     65 ­ 69     Credit 3 (C3) B         B =5
+
+4            Good          60 ­ 64     Credit 4 (C4) C         C =4
+
+5            Satisfactory  55 ­ 59     Credit 5 (C5) D         D =3
+
+6            Adequate      50 ­ 54     Credit 6 (C6) E         E=2
+
+                                                                            21
+7  Moderate      45 ­ 49  Pass 7 (P7)  S  S=1
+
+8  Fair          40 ­ 44  Pass 8 (P8)     S=1
+
+9  Unclassified  0 ­ 39 Fail (F9)      U  0
+
+Source: REB Online Assessment Guide: Rwanda Grading System
+
+A standardized grading system with percentage score ranges, achievement levels, primary and lower
+ secondary (O' level) grades, A `level grades and achievement descriptions used in examinations.
+
+   Subject weights and points
+
+   In order to generate points to be used in selection of candidates to higher Institutions of learning, the value
+   obtained by a candidate in each subject combination is multiplied by its corresponding subject weight then the
+   results for all the subjects are added together and the total will constitute the points upon which selection will be
+   based.
+   All combinations in general secondary education have subjects with equal weight of three (3) for every subject
+   in this combination. In addition, all candidates regardless of combination have to sit for a "GENERAL PAPER"
+   exam which has a weight of one (1).
+   Example
+   The weighted aggregate for a candidate obtaining three A grades and S in general paper will be calculated as
+   follows.
+   If a candidate doing physics, chemistry and math (PCM), Entrepreneurship plus General Paper obtains A in
+   math, A in physics, A in Chemistry and A in Entrepreneurships and S in General Paper then that candidate's
+   weighted aggregate will be (3X6) +(3X6) +(3X6) +(3x6) +(1x1) =73 points.
+
+   REB will also set and administer National Exams for students in P6, S3 and S6. The system and process in
+   setting national examinations should be to encompass competence-based assessment and to increase vigour in
+   the robustness of outcomes. The examinations must be compatible with the content and the learning outcomes
+   described in the subject syllabi. Special attention should be paid to item writing, standardization of scores and
+   grading which all schools should adapt for comparability of schools' assessment results. Procedures for
+   determining formats, structures, setting principles and grading will be determined for each subject.
+
+                                                                                                                                        22
+Section B: National Exams
+When planning tests/examinations, setters should follow the principles of assessment:
+i. Fairness that is not advantage or disadvantage to anyone.
+ii. Flexibility or practicability that is affordable.
+iii. Validity that is fit for purpose.
+iv. Reliability that is Consistency in results.
+
+Everyone concerned with examinations should have knowledge of these principles of assessment. Therefore,
+the following questions should be put into consideration while setting examinations:
+
+     Is the time required for assessment realistic? Simple topics should receive short time for testing, and the
+         more complex competences should get more time for candidates to answer the questions.
+
+     Does the assessment offer all candidates an equal opportunity to demonstrate their attainment? The test
+         should not discriminate in terms of student backgrounds (urban/rural), religion or disability. It is
+         important to be sensitive to these social issues. For example, the questions in a test should not be based
+         predominantly on urban or rural settings. A good balance is essential. Test items that may be offensive
+         to certain religious beliefs (discussion involving eating pigs when class has Muslims in it; or those that
+         disadvantage students living with disabilities (drawings, diagrams, maps) in case of blind students, etc.)
+         should be avoided.
+
+     What competences are being assessed?
+     What activities will allow a candidate to demonstrate these skills?
+     Is the test/examination fair for all candidates?
+     What evidence will be generated by the test/examination activities?
+     Is the test/examination proportionate to the time taken to carry it out?
+     Does it make best use of the available resources?
+     Do the teachers or assessors give or offer different marks on the same task completed by the same
+
+         candidates or learners ie. Differential item functioning.
+
+Focus on larger themes, topics, or tasks covering connected outcomes ­ Avoid setting tests whose items ask for
+trivial answers or certain specific details before students have mastered general rules and principles which they
+can generalize and apply in a range of different situations.
+
+Always bear in mind that some activities may be observed, some products may be evaluated, and others
+showing evidence of knowledge, understanding and analytical skills. Therefore, combining assessments
+improves the chances for learner achievement, and in the process will improve their motivation to learn more
+and better. Learners will want to do more and achieve better results.
+
+When planning a test or examination, the plan should indicate the following key attributes:
+a. The proportion of items within a curriculum area that assess different skills.
+For example:
+
+     In mathematics ­ number, measurement, space, pattern.
+     In languages ­ ideas, content knowledge, structure, style, vocabulary, spelling, and grammar.
+
+                                                                                                                                     23
+b. The proportion of items that address different cognitive processing skills
+For example:
+
+      knowledge, comprehension, application, analysis, synthesis, and evaluation
+
+c. The proportion of essay type questions, short answer, fill-in the blank space, or multiple ­choice items on the
+test.
+
+d. The total number of items on the test.
+
+Marking
+
+REB will use the marking guide to fit the type of item, and show where a number of points are required, and
+then the marks are awarded per point. The marker should use the marking guide to indicate where a single
+statement is sufficient for what is required. The marker can then make a judgment of proficiency against that
+statement, or where there is a range of content which is indicated using the mark ranges to identify how to
+award different levels of content. The marker can also see that an essay type answer could have either a
+graduated marking guide with a single mark scale, or it could award different aspects of the answer. This means
+that it is possible for the marker to allocate specific marks to an answer, rather than giving an overall impression
+mark.
+
+Examination Validity & Reliability
+
+The two terms differ. Examination validity refers to whether or not the item (test) measures the test's intended
+focus or purpose, while examination reliability concerns with the consistency or reproducibility, or an
+examinees achievement in the test/examination.
+
+The validity of a test can be improved in the following ways:
+     The test items should be linked with the instructional objectives.
+     The language used during the construction of the test items should be to the level of the students
+         (tested). Too often, tests are written at the reading level of the teacher rather than at the reading level of
+         the student.
+     Instructions for taking the test should be clearly stated and the testing conditions should be conducive.
+
+The following strategies can be used to improve the reliability of a test:
+Increase the number of items on the test
+A longer test (i.e. a test with many items) is generally more reliable than a shorter test because it provides a
+larger and hence potentially more representative sample of a student's performance. Fewer test items might
+result in ties among students (i.e. students getting same scores). This will result in low standard deviation and
+hence low test reliability.
+Narrow the focus of the test
+For example, a test that measures only students' mastery of `blood circulation' will be more reliable than an
+equivalent test that attempts to measure students' mastery of `biology'.
+
+                                                                                                                                     24
+

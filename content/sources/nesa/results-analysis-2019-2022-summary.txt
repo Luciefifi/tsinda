@@ -1,0 +1,526 @@
+     REPORT ON ANALYSIS OF
+GENERAL EDUCATION, TTCs, AND
+
+ TVET NATIONAL EXAMINATION
+      RESULTS FOR 2019-2022
+
+                                    By
+
+National Examination and School
+         Inspection Authority
+
+                                    April 2023
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  i
+© 2023 National Examination and School Inspection Authority (NESA)
+                                      All rights reserved
+Foreword
+
+Education is one of the main pillars upon which Rwanda's socio-economic
+development hinges. For nearly the past three decades, Rwanda has registered
+progressive improvement in education in terms of access, quality, and equity. In
+a bid to make education more relevant to national aspirations of becoming a
+knowledge-based economy, a competence-based curriculum was introduced.
+In view of this, national examinations are administered at the end of each learning
+cycle (Primary 6, senior 3, senior 6 for general basic education, level 5 of Technical
+and Vocational Education and Training (TVET), and end of year 3 for TTCs) to
+assess the attainment of intended curriculum competencies to inform decision
+making and education system management.
+
+As such, National Examination and School Inspection Authority (NESA) was
+established with a prime mission of ensuring the quality of education in basic
+education and Technical and Vocational Education and Training (TVET) from level
+one (1) to five (5) and to regulate the comprehensive assessments of students
+and national examinations.
+
+Accordingly, NESA conducted an analysis of national examination results to
+establish the trend of learners' performance and pass rate to inform improvement
+pathways in teaching, learning, and assessment. The analysis covered all the
+subjects examined in the 2019, 2021, and 2022 school years.
+
+On this note, NESA presents a report of the analysis of the national examination
+results for each subject or trade at each level. The report highlights the general
+pass rate and performance, pass rate disaggregated by gender, school location
+(rural and urban), school ownership (public, private, and government-aided),
+and school status (boarding/day school) for each subject.
+
+It is hoped that this report provides a general picture of learners' achievement at
+the end of the respective learning cycles, and informs education stakeholders of
+areas for intervention.
+
+We express our sincere gratitude to the World Bank for the financial support and
+to everyone who contributed to the successful compilation of this report.
+
+Sincerely,
+
+Dr. BAHATI Bernard
+
+Director General
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  iii
+Contents
+
+Foreword .................................................................................................................... iii
+1. Introduction............................................................................................................. 1
+2. Methodology.......................................................................................................... 1
+3. Summary of key findings in specific subjects
+
+    at all learning cycles/levels ......................................................................... 2
+4. General findings for each learning cycle/level ..................................... 5
+
+    4.1. General pass rates in Primary National Examination
+           in 2019, 2021 and 2022. ................................................................................................. 5
+
+     4.2 General pass rates in Ordinary Level (S3) National
+           examination in 2019, 2021, and 2022 ...................................................................... 6
+
+    4.3 General pass rate in Advanced level National Examinations
+           in 2019, 2021 and 2022.................................................................................................... 6
+
+    4.4 General pass rates in TTC national examinations ..........................................7
+     4.5 General pass rate in Level 5 TVET National Examinations .. ........................... 8
+
+5. Conclusion and Recommendation............................................................. 9
+6. References.............................................................................................................10
+
+iv  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+List of Tables
+
+Table 1: General Pass Rates in national examinations for Primary Six ......................10
+Table 2: General pass in ordinary level national examinations ...................................... 11
+Table 3: General pass rate for all national examinable subjects
+
+             at Advanced Level (Senior Six)..........................................................................................12
+Table 4: General TTC Students' pass rates in 2019, 2021 and 2022................................12
+Table 5: General pass in all TVET trades National examinations....................................13
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  v
+1. Introduction
+
+Analysis of student national examinations helps to determine the extent to which
+the curriculum learning outcomes have been achieved and to identify areas
+where students perform well and those that need improvement. This report
+presents results of the analysis of national examinations for end of primary six, end
+of Ordinary level, end of advanced level, end of level 5 of Technical and Vocational
+Education and Training (TVET), and year three of teacher training colleges for
+three years (2019, 2021 and 2022). The objectives of the analysis were twofold: 1)
+to compare the pass rate of students in the old and the new grading system, and
+2) to identify subjects that require intervention in terms of teaching, learning &
+assessment to improve student performance in the future. Student performance
+in 2022 was analyzed based on the revised grading system in comparison
+with the performance in previous years, that is, 2019 and 2021. The initiative of
+analyzing national examinations for primary six, lower secondary level, upper
+secondary level, Teacher Training Colleges (TTCs), and Technical and Vocational
+Education and Training (TVET) draws from other countries in the region such as
+Kenya, Uganda, Ghana, and South Africa where analysis of national examinations
+is conducted and elicits valuable information for informed decision making by
+policymakers as well as informing education supervisors at various levels.
+
+Accordingly, the analysis began with collecting, organizing, and synthesizing the
+results of students in all national examinations for 2019, 2021, and 2022 as well as
+the views of teachers. The results were retrieved from National Examination and
+
+School Inspection Authority (NESA) examination database, national examination
+
+guidelines, chief markers' reports produced during the marking of national
+examinations, and teachers' views during focus group discussions regarding
+national examination performance.
+
+2. Methodology
+
+This section presents the procedure of data analysis, sources of data, methods,
+and tools of data collection, processing and interpretation, and data presentation.
+The process of analyzing students' results in national exams began with a
+collection of students' results in national examinations for the three years (2019,
+2021, and 2022) and organizing them. Data entry into SPSS version 20, Stata 14,
+Access, and Excel was done for easy tabulation, analysis, and interpretation.
+Students' results were processed, categorized, coded, and analyzed. Descriptive
+statistics (measures of central tendency and variability) were used to analyze
+and interpret the findings. Charts, frequency tables, and cross-tabulation were
+generated using SPSS version 20, Stata 14, Access, and Excel. The number of
+subjects for which the national exam results were analyzed at every level include
+the Primary level (5), O-level (9), A-level (14 subject combinations), and TTCs (18
+subjects.
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  1
+Students' results were retrieved from the NESA examination database, national
+examination guidelines chief markers' reports produced during the marking of
+national examinations, and teachers during focus group discussions regarding
+national examination performance. Data on student performance was categorized
+and presented according to school ownership (private, government-subsidized,
+and public schools); gender; school location (districts and provinces, rural and
+urban); and school status (boarding and day schools).
+
+It should be noted that while the interpretation of standard deviation is dependent
+upon the context and nature of the dataset, in this report, the interpretation of
+the standard deviations and variation coefficients of scores for various subjects
+were based on the American Psychological Association (APA)1 guidelines for
+reporting statistical results, which recommends that a standard deviation that
+is less than one-third of the mean can be considered a small variation, while a
+standard deviation that is greater than or equal to one-third of the mean can be
+considered a large variation.
+
+3. Summary of key findings in specific subjects at all
+    learning cycles/levels
+
+Overall, results from the analysis of national examinations for each learning cycle
+show that the pass rate of students in all the examinable subjects in 2022 (when
+the revised grading system began) was relatively higher than in the previous two
+years (2019 and 2021) in the old grading system. This suggests that the revised
+grading system did not negatively impact the pass rate of students.
+
+The pass rate of students in national exams in the three years (2019, 2021, and
+2022) varied according to the learning cycle/level, subject, gender, school
+ownership, and type of school (boarding and day), among others. However, it
+should be noted that for A-level, TTC, and TVET, there was no consistency in the
+pass rate between male and female students over the three years. While pass
+rates among female students were generally higher than male in some subject
+combinations and trades, they were lower in others.
+
+At the primary school level, the pass rate in private schools was relatively higher
+than in public and Government aided schools. However, in 2022, in which the
+revised grading system began, the pass rate was relatively higher than in the two
+previous years (2019 & 2021). Specifically, in 2019 and 2021 the pass rate stood at
+81.6% and 81% respectively while in 2022, it increased to 90.69%. Disaggregated
+by gender, the pass rate of girls was relatively higher than that of boys. Overall,
+Kinyarwanda had the highest pass rate across all three years and Mathematics
+had the lowest. The pass rate in rural schools was relatively lower than the pass
+rate in urban schools in 2021 and 2022. On average, the pass in 2021 was 75.12% in
+
+1 American Psychological Association. (2020). Publication manual of the American Psychological
+    Association (7th ed.). https://doi.org/10.1037/0000165-000
+
+2  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+rural schools and 86.90% in urban while in 2022, it was 82.08% in rural schools and
+89.48% in urban.
+
+With respect to O-level, students' pass rate in all the subjects examined was
+relatively consistent over the three school years. It stood at 86.6% in 2019, 86.3%
+in 2021, and 85.7% in 2022. When disaggregated by gender, the trend of pass rate
+was similar, but the pass rate among girls was relatively higher than among
+boys. The average pass rate for all the examined subjects at O-level significantly
+increased over the three years. It rose from 56.8% in 2019 to 67.1% in 2021 and to
+93.3% in 2022. It is worth noting that while there was a substantial increase in the
+pass rate in all the examinable subjects across the three years, the mathematics
+subject remained to have the lowest pass rate. The highest pass rate in each
+of the three years was observed in Kinyarwanda. In contrast to primary school
+leaving exams in which the pass rate among girls was predominantly higher than
+boys across the three years, in O-level exams, the pass rate among boys in all
+exams was relatively higher than girls in the three years.
+
+For A-level, the general pass rate of candidates who sat for national examinations
+varied. In 2019, it stood at 89.5% and reduced to 85.3% in 2021. However, in 2022,
+it sharply rose to 94.6%. Among the core combination subjects for humanities,
+the highest average pass rate was in Kiswahili (87.8%) and the lowest in French
+(74.56%) across the three school years. Similarly, for science core combination
+subjects, Biology had the highest average pass rate (91.58%) while Mathematics
+had the least average pass rate (66.76%). General Studies and Communication
+Skills, which is a non-core subject had the overall highest pass rate in the three
+years (2019, 2021 & 2022). With respect to gender, the pass rate of male students
+was relatively higher than that of female students in all the A-level examined
+subject combinations. In addition, for A-level, the type of school (boarding and
+day) was considered and it was found that, in general, the pass rate in boarding
+schools was relatively higher than a day.
+
+Regarding TTCs, the pass rate in year three TTC national examinations was
+relatively consistent over the three school years considered (2019, 2021, and
+2022), with no significant difference across the years. In 2019, the proportion of
+students that passed was 98.2% while in 2021 and 2022 it stood at 99.7% and 99.9%
+respectively. Nonetheless, there were variations in pass rate in the examined TTC
+subjects over the three years. The subject with the lowest average pass rate was
+French (37.5%) while Foundations of Education, Mathematics, Entrepreneurship,
+Teaching Practices, English, and Kinyarwanda had the highest average pass rate
+(over 95%). It is worth noting that the pass rate in some subjects was 100%. This
+was evident in 2022 in subjects such as English, Kinyarwanda, Integrated Sciences,
+and Entrepreneurship.
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  3
+The pass rate in other TTC subjects in 2022, when the revised grading system
+started was generally outstanding ranging from 94% in Chemistry to 100% in
+Economics, Geography, History, and Creative Performance. In fact, the average
+pass rate was 98.80%. There was no significant difference in pass rate between
+female and male students in other TTC subjects. For instance, in subjects such
+as Creative Performance (Music & Fine Arts), Economics, Geography, History,
+Religious Education, Social Studies, and Teaching Methods, the pass rate of female
+and male students was either the same or very close to each other.
+
+With respect to TVET, there were 34 trades in all three years (2019, 2021, and 2022),
+and each trade consisted of 6-10 subjects in which students were examined at
+the national level. Overall, the pass rate in TVET trades national examinations
+across the three years was very good. In 2019, the general pass rate was about
+91% and in 2021 and 2022, it increased at nearly the same rate, that is, 97% and 98
+% respectively. Another trade of Software programming and Embedded Systems
+was introduced in 2022, with 17 subjects and the pass rate in 16 of them was 100%,
+while in the other trade, it stood at about 88%. The trades with the highest average
+pass rates across the three years were: Graphics Art trade (99%), Ceramics and
+Sculpture trade (99%), Interior design trade (98%), and Welding (98%). The lowest
+pass rates were observed in Food and Beverage Services trade (70%), Customs
+and taxations operations trade (76%), and Accounting trade (76.7%). In addition
+to the trades, the results of 6 cross-cutting subjects were also analyzed and the
+highest pass rate was in Kinyarwanda (97%) while the lowest was in Kiswahili
+(24%).
+
+In a nutshell, there was a progressive improvement in performance in national
+examinations for primary, O-level, A-level, and Teacher training colleges as well as
+TVET trades over the three years. In fact, in 2022, the general pass rates of students
+in exams at all levels were significantly higher compared to 2019 and 2021. The
+implication is that the new grading system had no impact on student failing or
+passing. Despite the progressive improvement in general performance at different
+levels, as earlier mentioned, in some subjects and trades, the performance was
+poor and there were variations, especially pertaining to location (rural-urban),
+ownership of school (public, district, private, and government aid), and gender.
+
+4  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+4. General findings for each learning cycle/level
+
+This section presents the general findings of the national examination results
+analysis for basic education learning cycles (P6, S3, & S6), year 3 of TTCs and TVET
+for 2019, 2021, and 2022.The analysis provides an overview of the general pass rate
+trends, highlighting the number of candidates who registered for the national
+exam, the number and percentage of candidates who sat for the exam, and the
+number and percentage of candidates who passed.
+
+4.1. General pass rates in Primary National Examination in
+     2019, 2021 and 2022.
+
+The table below presents the total number of primary school pupils registered in
+2019, 2021, and 2022, those who sat for national exams as well as the number and
+percentage pass rate in the three years.
+
+Table 1: General Pass Rates in national examinations for Primary Six
+
+Candidates                      2019           2021           2022
+                        Number %      Number %       Number %
+
+A candidate registered  286,721 100% 255,930 100%    230,158 100%
+for the national exam
+
+Candidates who sat for  278,456 97.1% 250,453 97.9% 227,720 98.9%
+all national exams
+
+Candidates who passed 227,264 81.6% 207,315 82.8% 206,286 90.69%
+
+The table above provides an overview of the overall pass rates in primary six
+students' national examinations over a period of three years (2019, 2021, and 2022).
+It also highlights the number of registered candidates and those who actually sat
+for the exams.
+
+The data reveals a slight decline in the total number of registered candidates,
+dropping from 286,721 in 2019 to 250,453 in 2021 and further to 230,158 in 2022.
+Similarly, the number of candidates who participated in the exams also decreased
+over the three-year period, going from 278,456 in 2019 to 227,720 in 2021 and then
+increasing to 250,453 in 2022.
+
+Pertaining to the pass rates, the data demonstrate consistently high performance.
+In 2019, the pass rate stood at 81.6%, which slightly increased to 82.8% in 2021.
+Notably, in 2022, there was a significant improvement as the pass rate increased
+to 90.69%. This substantial increase in the pass rate indicates an improvement
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  5
+in student performance, particularly in 2022 when the new grading system was
+implemented. It may be worthwhile to conduct an investigation to explore the
+potential factors contributing to this notable improvement
+
+4.2 General pass rates in Ordinary Level (S3) National
+     examination in 2019, 2021, and 2022
+
+The general pass rates in the Ordinary Level (S3) National examination for the
+years 2019, 2021, and 2022 are presented in the table below.
+
+Table 2: General pass in ordinary level national examinations
+
+Candidates           2019                2021                     2022
+            Number %            Number %                 Number %
+
+Registered candidates 115,414 100% 122,536 100% 127,589 100%
+
+Candidates who sat for 114,426  99,1% 121,626 99.3% 127,078  99.6%
+all exams
+
+Candidates who passed 99,122 86,6% 105,008 86.3% 108,566 85.4%
+
+As depicted in the table above, there was an increase in the total number of
+registered candidates from 115,414 in 2019 to 122,536 in 2021 and further to 127,589
+in 2022. The number of candidates who took all the exams remained relatively
+stable with insignificant differences across the three years. The percentage of
+candidates who successfully passed the exams showed consistent patterns
+throughout the years. In 2019, the pass rate stood at 86.6%, followed by a slight
+drop to 86.3% in 2021, and a further decline to 85.4% in 2022. Overall, the findings
+indicate a significant rise in the number of registered candidates and those who
+completed all exams over the three years, while the pass rates displayed relatively
+consistent trends with minor variations.
+
+4.3 General pass rate in Advanced level National
+     Examinations in 2019, 2021 and 2022
+
+At the advanced level, national examination results for 14 subjects were analyzed.
+The table below provides detail of the general pass rates for the three years.
+
+6  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+Table 3: General pass rate for all national examinable subjects at Advanced Level (Senior
+           Six)
+
+Candidates                      2019                           2021          2022
+                       Number %                        Number %      Number %
+
+Registered candidates 50,576                     100% 47,638   100% 47,606                          100%
+                                                 98.6% 47,399  99.5% 47,379                         99.6%
+Candidates who sat for all 46,861
+exams                                            89.5% 40,435  85.3% 44,818                         94.6%
+Candidates who passed 41,944
+
+The table above illustrates the overall pass rates of Senior Six students in the
+national examinations over a span of three years (2019, 2021, and 2022). According
+to the table, there was a slight decrease in the total number of registered
+candidates from 50,576 in 2019 to 47,638 in 2021, and further to 47,606 in 2022.
+However, the number of candidates who sat for all the exams remained relatively
+consistent across the three years, with a minor difference.
+
+In terms of the pass rates in the national examinations, the data in the table
+shows that it was generally high. The pass rate in 2019 stood at 89.5% but slightly
+reduced to 85.3% in 2021. However, in 2022, the pass rate significantly increased
+to 94.6%. These findings suggest that there was a considerable improvement in
+student performance in national examinations, particularly in 2022.
+
+4.4 General pass rates in TTC national examinations
+
+The table below presents the total number of TTC students who registered for
+national exams, the number of students for sat for exams, and those who passed.
+
+Table 4: General TTC Students' pass rates in 2019, 2021 and 2022
+
+                                                 2019         2021               2022
+
+Candidates             Number %                        Number %      Number %
+Registered candidates
+                       4251                      100%  2,988        100% 2,907                      100%
+
+                                          3,938  92.6% 2,988        100% 2,895                      99.6%
+Candidates who sat for all
+exams
+
+Candidates who passed 3,869                      98.2% 2,980        99.7% 2,892                     99.9%
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  7
+As presented in Table 4, the number of registered candidates for the TVET national
+exams in 2019, 2021, and 2022 was 4,251,2988 and 2907 respectively. However, the
+actual number of students who sat for all exams was 3,938, which accounted for
+92.6% of the registered candidates. In 2021, all candidates (2,988) registered and
+sat for the exams, and this trend almost remained the same in 2022 with a slight
+decrease to 2,907 candidates (99.6% of registered candidates).
+
+Regarding the pass rate, there was no significant difference observed across
+the three years. In 2019, the pass rate stood at 98.2%, while in 2021 and 2022, it
+was 99.7% and 99.9%, respectively. These statistics indicate the consistently
+high performance of students in the TVET national exams, as evidenced by the
+consistently high pass rates.
+
+4.5 General pass rate in Level 5 TVET National
+     Examinations
+
+This section presents the results of the analysis of national examinations for TVET
+trades for 2019,2021 and 2022. The analysis focused on the general pass rate.
+
+Table 5: General pass in all TVET trades National examinations
+
+                            TVET level five
+
+                            2019                              2021         2022
+                                                                    No. %
+Number of students          No. %                        No.     %
+
+Number of registered        19,370 100% 22,686 100% 21,340 100%
+students
+                            19,231                       22,523
+Number of students who sat
+for all exams                       99.3%                        99.3% 21,227 99.5%
+
+Number of students who      17,530 91.2% 21,768 96.6% 20,752 97.8%
+passed
+
+As can be seen in Table 5, in 2019, there were 19,370 registered candidates, which
+increased to 22,686 in 2021. However, the number decreased to 21,340 in 2022.
+Generally, across all three years, the percentage of candidates who sat for all
+exams remained consistently high, ranging from 99.3% to 99.5%. Concerning the
+pass rate, in 2019, 17,530 candidates successfully passed the exam, accounting
+for 91.2% of all candidates who took the exam. This percentage notably increased
+to 96.6% in 2021 and further rose to 97.8% in 2022.
+
+8  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+5. Conclusion and Recommendation
+
+This section provides conclusions and suggests recommendations based on the
+findings of the analysis of the national examinations for the three school years
+(2019, 2021, and 2022).
+
+Conclusions
+
+In conclusion, there was a progressive improvement in performance in national
+examinations for primary, O-level, A-level, Teacher training colleagues as well as
+TVET trades over the three years. In fact, in 2022, the general pass rates of students
+in exams at all levels were significantly higher compared to 2019 and 2021. The
+implication is that the new grading system had no impact on student failing or
+passing. Despite the progressive improvement in general performance at different
+levels, as earlier mentioned, in some subjects and trades, the performance was
+poor and there were variations, especially pertaining to location (rural-urban),
+ownership of school (public, district, private, and government aid), and gender.
+Based on the findings of the analysis, the following recommendations are made:
+
+Recommendations
+Based on the findings of the analysis, the following recommendations are made:
+
+    The analysis of national examination results for each learning cycle elicited
+        pertinent information regarding pass rate and student performance in
+        specific subjects. We recommend that NESA should have a long-term plan
+        for adopting and implementing this practice every year.
+
+    We recommend that in the future, NESA should plan so that future, end-term
+        III exam results are also analyzed and comparisons made with national
+        exam results to provide a clear picture of student performance. It can also
+        help teachers to evaluate the effectiveness of their teaching strategies.
+
+    Despite the progressive improvement in general performance at different
+        levels, as earlier mentioned, in some subjects and trades, the performance
+        was poor and there were variations, especially pertaining to location (rural-
+        urban), ownership of school (public, district, private, and government aid)
+        and gender. It is, therefore, recommended that NESA, in collaboration with
+        partners should conduct a comprehensive study to identify the factors that
+        have contributed to disparities in performance by location, gender, district,
+        and school ownership. The findings of the study could serve as the basis for
+        the development of evidence-based strategies that can enhance the quality
+        of teaching and learning thereby addressing disparities between provinces,
+        rural and urban schools. The study can also unveil best practices in high-
+        performing districts and schools that can be adopted and implemented by
+        those that perform poorly.
+
+    Dissemination of the report of national examination analysis using different
+        channels such as the NESA website and e-platform, media, and meetings
+        with partners/stakeholders.
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  9
+6. References
+
+American Psychological Association. (2020). Publication manual of the American
+Psychological Association (7th ed.). https://doi.org/10.1037/0000165-000
+
+Ministerial guidelines governing comprehensive assessment for primary,
+secondary (o' level and A' level), TTCs, and TVET Schools
+
+The Rwanda statistical yearbook 2019 & 2021
+
+Rwanda Ministerial Order on national examination guidelines
+
+Presidential Order No 121/01 of 15/10/2020 establishing national examination and
+school Inspection Authority
+
+10  NATIONAL EXAMINATION AND SCHOOL INSPECTION AUTHORITY
+National Examination and School
+Inspection Authority
+
+P.O. BOX 1382 Kigali, Rwanda
+Toll Free No.:9070
+info@nesa.gov.rw
+www.nesa.gov.rw
+
+REPORT ON ANALYSIS OF GENERAL EDUCATION, TTCs, AND TVET NATIONAL EXAMINATION RESULTS FOR 2019-2022  11
+
