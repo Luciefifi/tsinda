@@ -129,7 +129,7 @@ Who gets which reminder, on which channel and when, is **data in the database**.
 |---|---|
 | App | Next.js 16 (App Router), TypeScript, Tailwind CSS: one full-stack repo |
 | Database | **PostgreSQL** |
-| ORM | **Prisma** |
+| ORM | **Prisma 7** (driver adapter `@prisma/adapter-pg`) |
 | Architecture | **Service layer**: business logic in `server-only` services, thin pages, actions and route handlers (details to agree) |
 | SMS | Africa's Talking |
 | Push | Web Push API + service worker (PWA) |
@@ -159,6 +159,30 @@ topic_progress    a student's score per topic, when to review next
 schedules         per student: days, times, session lengths
 reminder_rules    who is reminded, channel, when
 ```
+
+### Database conventions (agreed 2026-10-24)
+
+Check every model against these rules.
+
+1. **Normalize to 3NF.** Store every fact once and refer to it by foreign key. No lists packed into a column. A column depends on the whole key and nothing else.
+2. **Denormalize only on purpose, with a schema comment explaining why.** Two allowed cases:
+   - historical snapshots, e.g. marks awarded at answer time;
+   - derived caches, e.g. `TopicProgress`, updated in the same transaction as the source rows.
+3. **Keys.** Primary keys are UUIDv7 (`@default(uuid(7))` with `@db.Uuid`). Natural uniqueness is enforced with unique constraints.
+4. **Integrity lives in the database.**
+   - Columns are NOT NULL unless "unknown" is a real state.
+   - Every foreign key has an explicit `onDelete` rule (`Cascade`, `Restrict` or `SetNull`).
+   - Fixed sets are enums.
+   - Rules like ranges are CHECK constraints, added by hand to the migration SQL.
+5. **Indexes.** Index every foreign key, since PostgreSQL and Prisma don't do it automatically. Add composite indexes for real query patterns.
+6. **Naming.** `snake_case` in the database and `camelCase` in TypeScript, joined with `@map` and `@@map`.
+7. **Time.** Store `timestamptz` in UTC and convert to Kigali time (UTC+2) for display. Every table has `createdAt`, plus `updatedAt` where rows change.
+8. **Safety.**
+   - Every change is a committed migration, and a migration that has already run is never edited.
+   - Multi-step writes run in transactions.
+   - The app connects as the `tsinda` role, never as `postgres`.
+   - Passwords and PINs are stored only as hashes.
+   - Children's data is hard-deleted when a family leaves. `isActive` pauses an account.
 
 ## 11. Build order (draft, to be confirmed)
 
@@ -203,3 +227,7 @@ reminder_rules    who is reminded, channel, when
 | 2026-10-23 | Database: PostgreSQL |
 | 2026-10-23 | ORM: Prisma |
 | 2026-10-23 | Architecture: service layer |
+| 2026-10-24 | Prisma 7 (stable), not the Prisma 8 RC; dev database `tsinda` in local PostgreSQL 14 (port 5432) |
+| 2026-10-24 | One `User` table + `UserRole` + `StudentProfile` + `Guardianship` (normalized) |
+| 2026-10-24 | Database conventions adopted (section 10) |
+| 2026-10-24 | Student login: username + 4-digit PIN, remember device, lockout; adults: phone + password; "who is learning?" picker later |

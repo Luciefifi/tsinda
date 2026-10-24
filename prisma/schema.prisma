@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── People & roles ───────────────────────────────────────────
+
+// Roles and permissions live in the database (RBAC).
+// Permissions are defined in code and synced to this table by the seed
+// script, because code is what enforces them. Which role has which
+// permission is data, editable by an admin.
+model Role {
+  id          String   @id @default(uuid(7)) @db.Uuid
+  key         String   @unique
+  name        String
+  description String?
+  isSystem    Boolean  @default(false) @map("is_system")
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  users       UserRole[]
+  permissions RolePermission[]
+
+  @@map("roles")
+}
+
+model Permission {
+  id          String   @id @default(uuid(7)) @db.Uuid
+  key         String   @unique
+  description String
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  roles RolePermission[]
+
+  @@map("permissions")
+}
+
+model RolePermission {
+  roleId       String   @map("role_id") @db.Uuid
+  permissionId String   @map("permission_id") @db.Uuid
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+  @@index([permissionId])
+  @@map("role_permissions")
+}
+
+// Every person, stored once. Adults log in with phone + password,
+// students with username + PIN. Secrets are stored only as hashes.
+model User {
+  id               String    @id @default(uuid(7)) @db.Uuid
+  fullName         String    @map("full_name")
+  phone            String?   @unique
+  username         String?   @unique
+  passwordHash     String?   @map("password_hash")
+  pinHash          String?   @map("pin_hash")
+  isActive         Boolean   @default(true) @map("is_active")
+  failedLoginCount Int       @default(0) @map("failed_login_count")
+  lockedUntil      DateTime? @map("locked_until") @db.Timestamptz(3)
+  lastLoginAt      DateTime? @map("last_login_at") @db.Timestamptz(3)
+  createdAt        DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt        DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  roles          UserRole[]
+  studentProfile StudentProfile?
+  guardianOf     Guardianship[]
+
+  @@map("users")
+}
+
+// Join table: the (user, role) pair is the identity, so no UUID.
+// A role that is still assigned to someone cannot be deleted (Restrict).
+model UserRole {
+  userId    String   @map("user_id") @db.Uuid
+  roleId    String   @map("role_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id], onDelete: Restrict)
+
+  @@id([userId, roleId])
+  @@index([roleId])
+  @@map("user_roles")
+}
+
+// 1:1 with User. Its key is also its foreign key.
+model StudentProfile {
+  userId    String   @id @map("user_id") @db.Uuid
+  examYear  Int      @map("exam_year")
+  school    String?
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  user      User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guardians Guardianship[]
+
+  @@map("student_profiles")
+}
+
+// Which guardian follows which student. studentId points to StudentProfile,
+// so only students can be guarded. The guardian's role is checked
+// in people.service.
+model Guardianship {
+  guardianId   String   @map("guardian_id") @db.Uuid
+  studentId    String   @map("student_id") @db.Uuid
+  relationship String?
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  guardian User           @relation(fields: [guardianId], references: [id], onDelete: Cascade)
+  student  StudentProfile @relation(fields: [studentId], references: [userId], onDelete: Cascade)
+
+  @@id([guardianId, studentId])
+  @@index([studentId])
+  @@map("guardianships")
+}
