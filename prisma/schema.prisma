@@ -71,8 +71,25 @@ model User {
   roles          UserRole[]
   studentProfile StudentProfile?
   guardianOf     Guardianship[]
+  sessions       Session[]
 
   @@map("users")
+}
+
+// A logged-in device. The cookie holds a random token; only its SHA-256
+// hash is stored here, so a database leak can't be used to log in.
+model Session {
+  id             String   @id @db.Char(64)
+  userId         String   @map("user_id") @db.Uuid
+  expiresAt      DateTime @map("expires_at") @db.Timestamptz(3)
+  lastUsedAt     DateTime @default(now()) @map("last_used_at") @db.Timestamptz(3)
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("sessions")
 }
 
 // Join table: the (user, role) pair is the identity, so no UUID.

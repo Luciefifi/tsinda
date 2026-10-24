@@ -135,6 +135,29 @@ Who gets which reminder, on which channel and when, is **data in the database**.
 | Push | Web Push API + service worker (PWA) |
 | Hosting | *To choose*, probably Vercel + a hosted Postgres (Neon or Supabase) |
 
+### Code layout (agreed 2026-10-24)
+
+```
+src/app/                Entry points. Pages, Server Actions, route.ts.
+                        Thin: they validate input, get the actor, call a
+                        service, and set cookies.
+src/server/             Backend only. Files import "server-only", except
+                        auth/permissions.ts, which holds only constants
+                        and types, so the UI may import it.
+├── db.ts               Prisma client (singleton)
+├── auth/               Building blocks: permissions, hashing, session,
+│                       cookies, actor + can(). No business rules.
+├── services/           Use cases (*.service.ts), e.g. auth, people,
+│                       study, progress. Business rules and permission
+│                       checks live here. Plain TypeScript with no
+│                       Next.js APIs, so they can be tested with scripts.
+└── channels/           SMS and push, behind one NotificationChannel
+                        interface
+prisma/                 Schema, migrations (committed), seed.ts
+```
+
+Scripts that run outside Next.js and import `server-only` files, such as create-admin, run with `tsx --conditions=react-server` so those imports work.
+
 ## 9. How we work
 
 - **I write the code myself, to learn as much as possible.** Claude explains, we think each piece through together, Claude gives the code in small chunks, and I type it in. Claude writes code directly only where I ask.
