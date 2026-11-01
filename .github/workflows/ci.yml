@@ -19,6 +19,9 @@ jobs:
     name: Type check, lint and build
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
+    env:
+      DATABASE_URL: postgresql://build:build@localhost:5432/build
     steps:
       - uses: actions/checkout@v7
 
