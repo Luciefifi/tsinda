@@ -9,7 +9,10 @@
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "create-student": "tsx --conditions=react-server --env-file=.env scripts/create-student.ts",
+    "prepare": "node scripts/install-git-hooks.mjs"
+
   },
   "dependencies": {
     "@node-rs/argon2": "^2.2.2",
