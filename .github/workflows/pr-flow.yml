@@ -1,0 +1,30 @@
+name: Pull request flow
+
+on:
+  pull_request:
+    branches: [staging, main]
+    types: [opened, reopened, synchronize, edited]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Allowed source branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Only development into staging, only staging into main
+        env:
+          FROM: ${{ github.head_ref }}
+          INTO: ${{ github.base_ref }}
+        run: |
+          if [ "$INTO" = "staging" ] && [ "$FROM" != "development" ]; then
+            echo "::error::Only development can be merged into staging, not '$FROM'."
+            exit 1
+          fi
+          if [ "$INTO" = "main" ] && [ "$FROM" != "staging" ]; then
+            echo "::error::Only staging can be merged into main, not '$FROM'."
+            exit 1
+          fi
+          echo "'$FROM' may be merged into '$INTO'."
