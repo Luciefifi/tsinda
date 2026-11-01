@@ -1,0 +1,82 @@
+name: CI
+
+on:
+
+  push:
+    branches: ['**']
+  pull_request:
+    branches: [development, staging, main]
+
+concurrency:
+  group: ci-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Type check, lint and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npx prisma generate
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run build
+
+  database:
+    name: Migrations, seed and tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: tsinda
+          POSTGRES_PASSWORD: tsinda
+          POSTGRES_DB: tsinda_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U tsinda"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      DATABASE_URL: postgresql://tsinda:tsinda@localhost:5432/tsinda_test?schema=public
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npx prisma generate
+
+      - name: Apply all migrations to an empty database
+        run: npx prisma migrate deploy
+
+      - name: Check the schema has no changes without a migration
+        run: npx prisma migrate diff --from-config-datasource --to-schema prisma/schema.prisma --exit-code
+
+      - name: Seed twice to prove it is idempotent
+        run: |
+          npx prisma db seed
+          npx prisma db seed
+
+      - name: Run the tests
+        run: npm test
