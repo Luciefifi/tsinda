@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Runs before every `git push`. If any check fails, the push is cancelled.
+set -euo pipefail
+
+echo "Running checks before pushing..."
+npm run typecheck
+npm run lint
+npm test
