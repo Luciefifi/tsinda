@@ -1,22 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 70 200 190">
-  <circle cx="125" cy="170" r="88" fill="#E0F2FE"/>
-  <rect x="86" y="142" width="70" height="66" rx="26" fill="#00A1DE"/>
-  <path d="M108 144l13 12 13-12" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="113" y="128" width="16" height="16" rx="6" fill="#6B4226"/>
-  <circle cx="121" cy="110" r="27" fill="#7A4A2A"/>
-  <path d="M94 108a27 27 0 0 1 54 0c-5-9-15-14-27-14s-22 5-27 14z" fill="#1F1A17"/>
-  <circle cx="94" cy="112" r="5" fill="#7A4A2A"/>
-  <circle cx="148" cy="112" r="5" fill="#7A4A2A"/>
-  <circle cx="111" cy="114" r="3" fill="#1F1A17"/>
-  <circle cx="131" cy="114" r="3" fill="#1F1A17"/>
-  <path d="M112 124q9 8 18 0" fill="none" stroke="#1F1A17" stroke-width="3" stroke-linecap="round"/>
-  <rect x="40" y="202" width="176" height="12" rx="6" fill="#0369A1"/>
-  <rect x="56" y="212" width="10" height="44" rx="5" fill="#075985"/>
-  <rect x="190" y="212" width="10" height="44" rx="5" fill="#075985"/>
-  <path d="M84 196l37-10 37 10v8l-37-10-37 10z" fill="#FAD201"/>
-  <path d="M86 194l35-9v-30l-35 9z" fill="#FFFFFF" stroke="#0369A1" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M156 194l-35-9v-30l35 9z" fill="#FFFFFF" stroke="#0369A1" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M93 171l20-5M93 179l20-5M129 166l20 5M129 174l20 5" stroke="#7DD3FC" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="86" cy="186" r="8" fill="#7A4A2A"/>
-  <circle cx="156" cy="186" r="8" fill="#7A4A2A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 190">
+  <!-- soft background -->
+  <circle cx="100" cy="100" r="86" fill="#E0F2FE"/>
+
+  <!-- chair back -->
+  <rect x="64" y="96" width="72" height="10" rx="5" fill="#075985"/>
+
+  <!-- torso: school shirt -->
+  <path d="M66 112c0-14 14-24 34-24s34 10 34 24v42H66z" fill="#00A1DE"/>
+  <!-- collar -->
+  <path d="M90 90l10 11 10-11" fill="#FFFFFF"/>
+  <path d="M100 101v40" stroke="#0284C7" stroke-width="2"/>
+  <circle cx="100" cy="112" r="1.8" fill="#FFFFFF"/>
+  <circle cx="100" cy="124" r="1.8" fill="#FFFFFF"/>
+
+  <!-- neck -->
+  <rect x="93" y="74" width="14" height="16" rx="5" fill="#6B4226"/>
+  <!-- head: oval, older proportions -->
+  <ellipse cx="100" cy="58" rx="15" ry="18" fill="#7A4A2A"/>
+  <!-- ears -->
+  <ellipse cx="85" cy="60" rx="3" ry="4.5" fill="#6B4226"/>
+  <ellipse cx="115" cy="60" rx="3" ry="4.5" fill="#6B4226"/>
+  <!-- short hair -->
+  <path d="M85 54c0-12 7-18 15-18s15 6 15 18c-3-6-9-9-15-9s-12 3-15 9z" fill="#1F1A17"/>
+  <!-- face: looking down at the book -->
+  <path d="M91 59q3-2 6 0M103 59q3-2 6 0" fill="none" stroke="#1F1A17" stroke-width="2" stroke-linecap="round"/>
+  <path d="M90 54l6-1M104 53l6 1" stroke="#1F1A17" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M96 68q4 3 8 0" fill="none" stroke="#3A2416" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- desk -->
+  <rect x="18" y="146" width="164" height="10" rx="4" fill="#0369A1"/>
+  <rect x="30" y="156" width="8" height="34" rx="3" fill="#075985"/>
+  <rect x="162" y="156" width="8" height="34" rx="3" fill="#075985"/>
+
+  <!-- open exercise book on the desk -->
+  <path d="M62 146l38-8 38 8z" fill="#FAD201"/>
+  <path d="M64 145l36-7v-14l-36 7z" fill="#FFFFFF" stroke="#0369A1" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M136 145l-36-7v-14l36 7z" fill="#FFFFFF" stroke="#0369A1" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M70 136l24-4M70 141l24-4M106 132l24 4M106 137l14 2" stroke="#7DD3FC" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- arms resting on the desk -->
+  <path d="M70 116c-6 10-8 20-4 28l14 2" fill="none" stroke="#00A1DE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M130 116c6 10 6 18 0 24l-14 2" fill="none" stroke="#00A1DE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- hands -->
+  <ellipse cx="82" cy="142" rx="7" ry="5" fill="#7A4A2A"/>
+  <ellipse cx="116" cy="139" rx="7" ry="5" fill="#7A4A2A"/>
+  <!-- pencil in the right hand -->
+  <path d="M112 141l14-16" stroke="#FAD201" stroke-width="4" stroke-linecap="round"/>
+  <path d="M112 141l-2.5 3 3.5-1z" fill="#1F1A17"/>
+  <path d="M124.5 126.5l2-2.3" stroke="#F472B6" stroke-width="4" stroke-linecap="round"/>
 </svg>

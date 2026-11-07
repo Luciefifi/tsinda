@@ -74,6 +74,8 @@ model User {
   sessions          Session[]
   reviewedLessons   Lesson[]        @relation("ReviewedLessons")
   reviewedQuestions Question[]      @relation("ReviewedQuestions")
+  reviewNotes       ReviewNote[]    @relation("ReviewNoteAuthor")
+  resolvedNotes     ReviewNote[]    @relation("ReviewNoteResolver")
 
   @@map("users")
 }
@@ -221,8 +223,9 @@ model Lesson {
   createdAt    DateTime      @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt    DateTime      @updatedAt @map("updated_at") @db.Timestamptz(3)
 
-  topic      Topic @relation(fields: [topicId], references: [id], onDelete: Restrict)
-  reviewedBy User? @relation("ReviewedLessons", fields: [reviewedById], references: [id], onDelete: SetNull)
+  topic       Topic        @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  reviewedBy  User?        @relation("ReviewedLessons", fields: [reviewedById], references: [id], onDelete: SetNull)
+  reviewNotes ReviewNote[]
 
   @@unique([topicId, sortOrder])
   @@index([reviewedById])
@@ -270,6 +273,8 @@ model Question {
   key          String         @unique
   topicId      String         @map("topic_id") @db.Uuid
   stimulusId   String?        @map("stimulus_id") @db.Uuid
+  // Position in its topic's questions.json, so questions show in book order.
+  sortOrder    Int            @default(0) @map("sort_order")
   source       QuestionSource
   // Exactly where it comes from, e.g. "NESA 2024 Mathematics, Q5" or
   // "P6 Mathematics PB, Unit 4, Application activity 4.2, Q3, p. 61".
@@ -288,7 +293,9 @@ model Question {
   reviewedBy User?          @relation("ReviewedQuestions", fields: [reviewedById], references: [id], onDelete: SetNull)
   parts      QuestionPart[]
 
-  @@index([topicId, status])
+  reviewNotes ReviewNote[]
+
+  @@index([topicId, status, sortOrder])
   @@index([stimulusId])
   @@index([reviewedById])
   @@map("questions")
@@ -337,4 +344,32 @@ model QuestionPart {
   @@unique([questionId, label])
   @@unique([questionId, sortOrder])
   @@map("question_parts")
+}
+
+// ─── Review ───────────────────────────────────────────────────
+
+// A reviewer's "needs a change" note on a lesson or a question. Exactly one
+// of lessonId / questionId is set (checked in the migration). The admin fixes
+// the content file, then marks the note as resolved.
+model ReviewNote {
+  id           String    @id @default(uuid(7)) @db.Uuid
+  lessonId     String?   @map("lesson_id") @db.Uuid
+  questionId   String?   @map("question_id") @db.Uuid
+  authorId     String?   @map("author_id") @db.Uuid
+  note         String
+  resolvedById String?   @map("resolved_by_id") @db.Uuid
+  resolvedAt   DateTime? @map("resolved_at") @db.Timestamptz(3)
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  lesson     Lesson?   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  question   Question? @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  author     User?     @relation("ReviewNoteAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  resolvedBy User?     @relation("ReviewNoteResolver", fields: [resolvedById], references: [id], onDelete: SetNull)
+
+  @@index([lessonId])
+  @@index([questionId])
+  @@index([authorId])
+  @@index([resolvedById])
+  @@index([resolvedAt])
+  @@map("review_notes")
 }

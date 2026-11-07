@@ -1,6 +1,8 @@
+import Link from "next/link";
 import { Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/ui/logo";
+import { can } from "@/server/auth/access";
 import { requireActor } from "@/server/auth/actor";
 import { logoutAction } from "./actions";
 
@@ -34,9 +36,20 @@ async function Welcome() {
   const actor = await requireActor();
 
   return (
-    <div className="flex flex-col gap-2">
-      <h1 className="text-2xl font-bold text-ink">Hello, {actor.fullName}!</h1>
-      <p className="text-slate-600">Your lessons will appear here soon.</p>
+    <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-2">
+        <h1 className="text-2xl font-bold text-ink">Hello, {actor.fullName}!</h1>
+        {can(actor, "study:take-sessions") && <p className="text-slate-600">Your lessons will appear here soon.</p>}
+      </div>
+
+      {can(actor, "content:review") && (
+        <Link
+          href="/review"
+          className="rounded-xl bg-brand-700 px-5 py-3 text-center text-lg font-bold text-white hover:bg-brand-800"
+        >
+          Review content
+        </Link>
+      )}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { ContentError, readContent } from "./read-content";
+import { ContentError, contentHash, readContent } from "./read-content";
 
 const fixture = (name: string) => path.join(__dirname, "__fixtures__", name);
 
@@ -47,5 +47,13 @@ describe("readContent", () => {
       "mathematics/p6-u04-fractions/t01-adding-fractions/questions.json: " +
         `Question "math-p6-u04-t01-q1" uses stimulus "no-such-table", which is not in this unit's stimuli.json.`,
     ]);
+  });
+
+  it("gives the same fingerprint whatever the line endings", () => {
+    const content = readContent(fixture("valid"));
+    const lesson = content.units[0].topics[0].lesson!;
+
+    expect(lesson.body).not.toContain("\r");
+    expect(lesson.hash).toBe(contentHash({ title: "Adding fractions", body: lesson.body }));
   });
 });
