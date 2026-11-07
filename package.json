@@ -12,9 +12,9 @@
     "test:watch": "vitest",
     "create-student": "tsx --conditions=react-server --env-file=.env scripts/create-student.ts",
     "prepare": "node scripts/install-git-hooks.mjs"
-
   },
   "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
     "@node-rs/argon2": "^2.2.2",
     "@prisma/adapter-pg": "^7.10.1",
     "@prisma/client": "^7.10.1",
