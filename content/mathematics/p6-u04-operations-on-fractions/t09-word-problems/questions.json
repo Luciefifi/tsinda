@@ -1,0 +1,83 @@
+[
+  {
+    "key": "math-p6-u04-t09-aa49-q1",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.9, Q1, p. 62",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "The product of two numbers is 7/3. The first number is 7/9. Find the second number.",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "3" },
+        "explanation": "Second number = product ÷ first number = 7/3 ÷ 7/9 = 7/3 × 9/7 = 63/21 = 3."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t09-aa49-q2",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.9, Q2, p. 62",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "A learner attempted 30 questions in an examination. This was 3/5 of the whole examination. How many questions were in the whole examination paper?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "50" },
+        "explanation": "3/5 of the paper is 30 questions. Whole paper = 30 ÷ 3/5 = 30 × 5/3 = 150/3 = 50 questions."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t09-aa49-q3",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.9, Q3, p. 62",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "A teacher used 75 pieces of chalk to write on the blackboard for a month. This is 3/4 of the full box of chalk. How many pieces of chalk does the box contain?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "100" },
+        "explanation": "3/4 of the box is 75 pieces. Whole box = 75 ÷ 3/4 = 75 × 4/3 = 300/3 = 100 pieces."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t09-nesa-2024-q28",
+    "source": "past_paper",
+    "sourceRef": "NESA PLE 2024 Mathematics, Q28, p. 8",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "If 3/4 of the pupils in P6 class are girls, find the number of boys who are in class if there are 48 pupils.",
+        "marks": 3,
+        "answer": {
+          "type": "worked",
+          "finalAnswer": { "answer": "12" },
+          "finalAnswerMarks": 1
+        },
+        "markingScheme": "1 mark: fraction of boys, 1 − 3/4 = 1/4. 1 mark: 1/4 × 48 (or 48 ÷ 4). 1 mark: 12 boys. Award the method marks for correct working even if the final answer is wrong. (Tsinda marking scheme: NESA does not publish one.)",
+        "modelAnswer": "Fraction of boys = 1 − 3/4 = 1/4.\nNumber of boys = 1/4 × 48 = 48/4 = 12.\nThere are 12 boys.",
+        "explanation": "The whole class is 1. Girls are 3/4, so boys are 1 − 3/4 = 1/4. Then 1/4 of 48 = 12 boys. (Another way: girls = 3/4 × 48 = 36, boys = 48 − 36 = 12.)"
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t09-nesa-2025-q15",
+    "source": "past_paper",
+    "sourceRef": "NESA PLE 2025 Mathematics, Q15, p. 7",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "A worker spent 1/4 of his salary on food; 1/2 of the remainder on school fees for his child and then he saved 45,000 Frw. Find the worker's salary and choose the correct answer:",
+        "marks": 3,
+        "answer": {
+          "type": "single_choice",
+          "options": ["150,000 Frw", "120,000 Frw", "90,000 Frw", "75,000 Frw"],
+          "correct": 1
+        },
+        "modelAnswer": "After food, 1 − 1/4 = 3/4 of the salary is left.\nSchool fees = 1/2 of 3/4 = 3/8.\nSaved = 3/4 − 3/8 = 3/8 of the salary = 45,000 Frw.\nSalary = 45,000 ÷ 3/8 = 45,000 × 8/3 = 120,000 Frw. Answer: B.",
+        "explanation": "Be careful: the school fees are half of the money LEFT after food, not half of the whole salary. Left after food: 3/4. Fees: 3/8. Saved: 3/8 = 45,000 Frw, so the salary is 45,000 × 8/3 = 120,000 Frw."
+      }
+    ]
+  }
+]

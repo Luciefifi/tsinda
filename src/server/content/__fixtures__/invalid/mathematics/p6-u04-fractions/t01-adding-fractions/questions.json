@@ -1,0 +1,24 @@
+[
+  {
+    "key": "math-p6-u04-t01-q1",
+    "source": "past_paper",
+    "sourceRef": "NESA 2024 Mathematics, Q5",
+    "parts": [
+      {
+        "label": "a",
+        "prompt": "Pick the prime number.",
+        "marks": 1,
+        "answer": {
+          "type": "single_choice",
+          "options": [
+            "9",
+            "15",
+            "17",
+            "21"
+          ],
+          "correct": 5
+        }
+      }
+    ]
+  }
+]

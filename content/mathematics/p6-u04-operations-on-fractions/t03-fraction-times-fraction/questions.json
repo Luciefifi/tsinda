@@ -1,0 +1,44 @@
+[
+  {
+    "key": "math-p6-u04-t03-aa43-q1",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.3, Q1, p. 55",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "What is 2 1/4 multiplied by 1 1/2?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "3 3/8" },
+        "explanation": "Change to improper fractions: 2 1/4 = 9/4 and 1 1/2 = 3/2. Then 9/4 × 3/2 = 27/8 = 3 3/8."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t03-aa43-q2",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.3, Q2, p. 55",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "Simplify: 1/4 × 2/3 × 1/9",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "1/54" },
+        "explanation": "Top: 1 × 2 × 1 = 2. Bottom: 4 × 3 × 9 = 108. So 2/108 = 1/54."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t03-aa43-q3",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.3, Q3, p. 55",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "Evaluate: 1/10 × 9/4 × 3 6/17",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "513/680" },
+        "explanation": "3 6/17 = 57/17. Top: 1 × 9 × 57 = 513. Bottom: 10 × 4 × 17 = 680. 513 and 680 have no common factor, so the answer is 513/680."
+      }
+    ]
+  }
+]

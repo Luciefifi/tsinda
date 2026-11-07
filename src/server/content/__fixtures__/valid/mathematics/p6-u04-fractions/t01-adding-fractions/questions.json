@@ -1,0 +1,21 @@
+[
+  {
+    "key": "math-p6-u04-t01-q1",
+    "source": "past_paper",
+    "sourceRef": "NESA 2024 Mathematics, Q5",
+    "parts": [
+      { "label": "a", "prompt": "Calculate ½ + ¼.", "marks": 2, "answer": { "type": "number", "answer": "3/4" } },
+      { "label": "b", "prompt": "Is ½ bigger than ¼?", "marks": 1, "answer": { "type": "true_false", "correct": true } }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t01-q2",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB, Unit 4, Application activity 4.1, Q1",
+    "stimulus": "math-p6-u04-cake-table",
+    "needsPicture": true,
+    "parts": [
+      { "label": "", "prompt": "How much cake did Keza eat?", "marks": 1, "answer": { "type": "number", "answer": "1/4" } }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "key": "math-p6-u04-t06-aa46",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.6, p. 58",
+    "instructions": "Work out the following:",
+    "parts": [
+      {
+        "label": "a",
+        "prompt": "5/6 ÷ 7",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "5/42" },
+        "explanation": "5/6 ÷ 7 = 5/6 × 1/7 = 5/42."
+      },
+      {
+        "label": "b",
+        "prompt": "3/4 ÷ 9",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "1/12" },
+        "explanation": "3/4 ÷ 9 = 3/4 × 1/9 = 3/36 = 1/12."
+      },
+      {
+        "label": "c",
+        "prompt": "2 4/5 ÷ 4",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "7/10" },
+        "explanation": "2 4/5 = 14/5. Then 14/5 × 1/4 = 14/20 = 7/10."
+      },
+      {
+        "label": "d",
+        "prompt": "2 1/2 ÷ 4",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "5/8" },
+        "explanation": "2 1/2 = 5/2. Then 5/2 × 1/4 = 5/8."
+      },
+      {
+        "label": "e",
+        "prompt": "1 1/4 ÷ 5",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "1/4" },
+        "explanation": "1 1/4 = 5/4. Then 5/4 × 1/5 = 5/20 = 1/4."
+      }
+    ]
+  }
+]
