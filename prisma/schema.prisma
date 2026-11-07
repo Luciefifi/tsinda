@@ -24,6 +24,7 @@ model Role {
 
   users       UserRole[]
   permissions RolePermission[]
+  auditLogs   AuditLog[]
 
   @@map("roles")
 }
@@ -55,18 +56,21 @@ model RolePermission {
 // Every person, stored once. Adults log in with phone + password,
 // students with username + PIN. Secrets are stored only as hashes.
 model User {
-  id               String    @id @default(uuid(7)) @db.Uuid
-  fullName         String    @map("full_name")
-  phone            String?   @unique
-  username         String?   @unique
-  passwordHash     String?   @map("password_hash")
-  pinHash          String?   @map("pin_hash")
-  isActive         Boolean   @default(true) @map("is_active")
-  failedLoginCount Int       @default(0) @map("failed_login_count")
-  lockedUntil      DateTime? @map("locked_until") @db.Timestamptz(3)
-  lastLoginAt      DateTime? @map("last_login_at") @db.Timestamptz(3)
-  createdAt        DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
-  updatedAt        DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
+  id                 String    @id @default(uuid(7)) @db.Uuid
+  fullName           String    @map("full_name")
+  phone              String?   @unique
+  username           String?   @unique
+  passwordHash       String?   @map("password_hash")
+  pinHash            String?   @map("pin_hash")
+  isActive           Boolean   @default(true) @map("is_active")
+  // Set when an admin creates the account or resets the password: the
+  // person must choose their own password before doing anything else.
+  mustChangePassword Boolean   @default(false) @map("must_change_password")
+  failedLoginCount   Int       @default(0) @map("failed_login_count")
+  lockedUntil        DateTime? @map("locked_until") @db.Timestamptz(3)
+  lastLoginAt        DateTime? @map("last_login_at") @db.Timestamptz(3)
+  createdAt          DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt          DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
 
   roles             UserRole[]
   studentProfile    StudentProfile?
@@ -76,12 +80,38 @@ model User {
   reviewedQuestions Question[]      @relation("ReviewedQuestions")
   reviewNotes       ReviewNote[]    @relation("ReviewNoteAuthor")
   resolvedNotes     ReviewNote[]    @relation("ReviewNoteResolver")
+  auditLogsDone     AuditLog[]      @relation("AuditActor")
+  auditLogsAbout    AuditLog[]      @relation("AuditTargetUser")
 
   @@map("users")
 }
 
 // A logged-in device. The cookie holds a random token; only its SHA-256
 // hash is stored here, so a database leak can't be used to log in.
+// Who changed what, and when: one row per change an admin (or a person to
+// their own account) makes. Required by Rwanda's data protection law (No.
+// 058/2021) once other families' children use Tsinda. Never holds passwords
+// or PINs, only the fact that one changed. Rows are never edited.
+model AuditLog {
+  id           String   @id @default(uuid(7)) @db.Uuid
+  actorId      String?  @map("actor_id") @db.Uuid
+  action       String
+  targetUserId String?  @map("target_user_id") @db.Uuid
+  targetRoleId String?  @map("target_role_id") @db.Uuid
+  details      Json     @default("{}")
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+
+  actor      User? @relation("AuditActor", fields: [actorId], references: [id], onDelete: SetNull)
+  targetUser User? @relation("AuditTargetUser", fields: [targetUserId], references: [id], onDelete: SetNull)
+  targetRole Role? @relation(fields: [targetRoleId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+  @@index([actorId])
+  @@index([targetUserId, createdAt])
+  @@index([targetRoleId])
+  @@map("audit_logs")
+}
+
 model Session {
   id         String   @id @db.Char(64)
   userId     String   @map("user_id") @db.Uuid

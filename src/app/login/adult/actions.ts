@@ -2,6 +2,7 @@
 
 import { redirect } from "next/navigation";
 import { z } from "zod";
+import { CHANGE_PASSWORD_PATH } from "@/server/auth/actor";
 import { setSessionCookie } from "@/server/auth/cookies";
 import { loginAdult } from "@/server/services/auth.service";
 import { adultLoginSchema } from "./schema";
@@ -32,5 +33,6 @@ export async function loginAdultAction(
   }
 
   await setSessionCookie(result.token);
-  redirect("/");
+  // A temporary password set by an admin must be replaced first.
+  redirect(result.mustChangePassword ? CHANGE_PASSWORD_PATH : "/");
 }

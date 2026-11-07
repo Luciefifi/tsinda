@@ -25,14 +25,23 @@ export const getCurrentActor = cache(async (): Promise<Actor | null> => {
     fullName: session.user.fullName,
     sessionId: session.sessionId,
     permissions: session.permissions,
+    mustChangePassword: session.user.mustChangePassword,
   };
 });
 
-// For pages and actions that need someone logged in.
+// Where someone with a temporary password must go first.
+export const CHANGE_PASSWORD_PATH = "/account/password";
+
+// For pages and actions that need someone logged in. A person still using a
+// temporary password (set by an admin) is sent to choose their own first, so
+// nothing else in the app works until they do.
 export async function requireActor(): Promise<Actor> {
   const actor = await getCurrentActor();
   if (!actor) {
     redirect("/login");
+  }
+  if (actor.mustChangePassword) {
+    redirect(CHANGE_PASSWORD_PATH);
   }
   return actor;
 }
