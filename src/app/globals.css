@@ -1,26 +1,24 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tsinda's colours. Each one becomes Tailwind classes, e.g. bg-brand-700,
+   text-ink, border-sun-400. */
+@theme {
+  --color-brand-50: #f0f9ff;
+  --color-brand-100: #e0f2fe;
+  --color-brand-500: #00a1de; /* the blue of Rwanda's flag, for decoration only */
+  --color-brand-600: #0284c7;
+  --color-brand-700: #0369a1; /* buttons and links: readable with white text */
+  --color-brand-800: #075985;
+  --color-sun-400: #fad201; /* the yellow of Rwanda's flag */
+  --color-ink: #1f2937;
 }
 
+/* The font comes from layout.tsx, so it must be read at runtime ("inline"). */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
 }
