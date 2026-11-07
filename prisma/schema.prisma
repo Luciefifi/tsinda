@@ -68,10 +68,12 @@ model User {
   createdAt        DateTime  @default(now()) @map("created_at") @db.Timestamptz(3)
   updatedAt        DateTime  @updatedAt @map("updated_at") @db.Timestamptz(3)
 
-  roles          UserRole[]
-  studentProfile StudentProfile?
-  guardianOf     Guardianship[]
-  sessions       Session[]
+  roles             UserRole[]
+  studentProfile    StudentProfile?
+  guardianOf        Guardianship[]
+  sessions          Session[]
+  reviewedLessons   Lesson[]        @relation("ReviewedLessons")
+  reviewedQuestions Question[]      @relation("ReviewedQuestions")
 
   @@map("users")
 }
@@ -79,11 +81,11 @@ model User {
 // A logged-in device. The cookie holds a random token; only its SHA-256
 // hash is stored here, so a database leak can't be used to log in.
 model Session {
-  id             String   @id @db.Char(64)
-  userId         String   @map("user_id") @db.Uuid
-  expiresAt      DateTime @map("expires_at") @db.Timestamptz(3)
-  lastUsedAt     DateTime @default(now()) @map("last_used_at") @db.Timestamptz(3)
-  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  id         String   @id @db.Char(64)
+  userId     String   @map("user_id") @db.Uuid
+  expiresAt  DateTime @map("expires_at") @db.Timestamptz(3)
+  lastUsedAt DateTime @default(now()) @map("last_used_at") @db.Timestamptz(3)
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -136,4 +138,203 @@ model Guardianship {
   @@id([guardianId, studentId])
   @@index([studentId])
   @@map("guardianships")
+}
+
+// ─── Curriculum (the textbook) ────────────────────────────────
+
+// Content is written in files under content/ and loaded by the content seed.
+// Every row has a stable `key` from its file, so reloading updates the same
+// row instead of creating a new one.
+
+// Lessons and questions start as DRAFT. Only PUBLISHED content reaches
+// students. If the file content of a published item changes, the loader
+// sets it back to DRAFT so it is reviewed again.
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+
+  @@map("content_status")
+}
+
+model Subject {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  key       String   @unique
+  name      String
+  sortOrder Int      @map("sort_order")
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  units Unit[]
+
+  @@map("subjects")
+}
+
+// A unit of the REB syllabus for one class (P4, P5 or P6).
+model Unit {
+  id            String   @id @default(uuid(7)) @db.Uuid
+  key           String   @unique
+  subjectId     String   @map("subject_id") @db.Uuid
+  grade         Int
+  number        Int
+  title         String
+  keyCompetence String?  @map("key_competence")
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  subject Subject @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  topics  Topic[]
+
+  @@unique([subjectId, grade, number])
+  @@map("units")
+}
+
+model Topic {
+  id        String   @id @default(uuid(7)) @db.Uuid
+  key       String   @unique
+  unitId    String   @map("unit_id") @db.Uuid
+  number    Int
+  title     String
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  unit      Unit       @relation(fields: [unitId], references: [id], onDelete: Restrict)
+  lessons   Lesson[]
+  questions Question[]
+
+  @@unique([unitId, number])
+  @@map("topics")
+}
+
+// What the student reads, in the REB pupil-book shape. The body is Markdown
+// and may include pictures.
+model Lesson {
+  id           String        @id @default(uuid(7)) @db.Uuid
+  key          String        @unique
+  topicId      String        @map("topic_id") @db.Uuid
+  sortOrder    Int           @map("sort_order")
+  title        String
+  body         String
+  status       ContentStatus @default(DRAFT)
+  contentHash  String        @map("content_hash")
+  reviewedById String?       @map("reviewed_by_id") @db.Uuid
+  reviewedAt   DateTime?     @map("reviewed_at") @db.Timestamptz(3)
+  createdAt    DateTime      @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime      @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  topic      Topic @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  reviewedBy User? @relation("ReviewedLessons", fields: [reviewedById], references: [id], onDelete: SetNull)
+
+  @@unique([topicId, sortOrder])
+  @@index([reviewedById])
+  @@map("lessons")
+}
+
+// ─── Assessment (the exam paper) ──────────────────────────────
+
+enum StimulusKind {
+  PASSAGE
+  TABLE
+  DIAGRAM
+
+  @@map("stimulus_kind")
+}
+
+// Material shared by several questions, e.g. a comprehension passage.
+model Stimulus {
+  id        String       @id @default(uuid(7)) @db.Uuid
+  key       String       @unique
+  kind      StimulusKind
+  title     String?
+  body      String
+  createdAt DateTime     @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt DateTime     @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  questions Question[]
+
+  @@map("stimuli")
+}
+
+enum QuestionSource {
+  PUPIL_BOOK
+  PAST_PAPER
+  MOCK
+  TSINDA
+
+  @@map("question_source")
+}
+
+// One question as numbered on the page ("Question 5"). Its parts (a), (b)...
+// carry the marks and answer keys.
+model Question {
+  id           String         @id @default(uuid(7)) @db.Uuid
+  key          String         @unique
+  topicId      String         @map("topic_id") @db.Uuid
+  stimulusId   String?        @map("stimulus_id") @db.Uuid
+  source       QuestionSource
+  // Exactly where it comes from, e.g. "NESA 2024 Mathematics, Q5" or
+  // "P6 Mathematics PB, Unit 4, Application activity 4.2, Q3, p. 61".
+  sourceRef    String         @map("source_ref")
+  instructions String?
+  needsPicture Boolean        @default(false) @map("needs_picture")
+  status       ContentStatus  @default(DRAFT)
+  contentHash  String         @map("content_hash")
+  reviewedById String?        @map("reviewed_by_id") @db.Uuid
+  reviewedAt   DateTime?      @map("reviewed_at") @db.Timestamptz(3)
+  createdAt    DateTime       @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt    DateTime       @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  topic      Topic          @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  stimulus   Stimulus?      @relation(fields: [stimulusId], references: [id], onDelete: Restrict)
+  reviewedBy User?          @relation("ReviewedQuestions", fields: [reviewedById], references: [id], onDelete: SetNull)
+  parts      QuestionPart[]
+
+  @@index([topicId, status])
+  @@index([stimulusId])
+  @@index([reviewedById])
+  @@map("questions")
+}
+
+// How a part is answered and marked. Types marked by a person (WORKED for
+// method marks, FREE_RESPONSE for explanations and compositions) go to the
+// reviewers' marking queue.
+enum AnswerType {
+  SINGLE_CHOICE
+  MULTIPLE_CHOICE
+  TRUE_FALSE
+  MATCHING
+  CLOZE
+  NUMBER
+  TEXT
+  GIVE_N
+  ORDERING
+  CLASSIFY
+  WORKED
+  FREE_RESPONSE
+
+  @@map("answer_type")
+}
+
+model QuestionPart {
+  id            String     @id @default(uuid(7)) @db.Uuid
+  questionId    String     @map("question_id") @db.Uuid
+  // "a", "b", "c"... or "" when the question has a single part.
+  label         String
+  sortOrder     Int        @map("sort_order")
+  prompt        String
+  marks         Int
+  answerType    AnswerType @map("answer_type")
+  // The answer key. Its shape depends on answerType and is checked by Zod
+  // when content is loaded (deliberate denormalization: always read whole).
+  answerSpec    Json       @map("answer_spec") @db.JsonB
+  markingScheme String?    @map("marking_scheme")
+  modelAnswer   String?    @map("model_answer")
+  explanation   String?
+  createdAt     DateTime   @default(now()) @map("created_at") @db.Timestamptz(3)
+  updatedAt     DateTime   @updatedAt @map("updated_at") @db.Timestamptz(3)
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, label])
+  @@unique([questionId, sortOrder])
+  @@map("question_parts")
 }

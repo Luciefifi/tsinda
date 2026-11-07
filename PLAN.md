@@ -58,7 +58,14 @@ Tsinda is a **learning** app, not just a question bank. Every session is **learn
 2. **Lesson.** One small topic from the P6 curriculum: a short explanation in **very simple English**, worked examples and pictures.
 3. **Check.** Questions on that topic, marked straight away. Every wrong answer shows why it is wrong.
 4. **Result.** A topic score. Below 80%, the topic comes back soon. At 80% or more, it moves on.
-5. **Mock exams.** Every few weeks, a full mock in the real PLE format.
+5. **Mock exams.** Full mocks in the real PLE format: timed (2 hours), NESA sections and marks, and marked the NESA way (automatically where possible, by a reviewer otherwise). They're held on weekends, one or two subjects at a time, except in June. Dates are app settings. Planned cadence, counting back from the PLE (about 6 July 2027):
+
+   | Period | Mocks |
+   |---|---|
+   | Feb–Mar 2027 | One every 4 weeks (baseline: find weak subjects early) |
+   | Apr–May 2027 | One every 2 weeks (check weak topics are improving) |
+   | June 2027 | Every weekend (real exam conditions, all five papers) |
+   | Last week before the PLE | None: light revision and rest |
 
 Other rules:
 - **Weekday sessions are short and weekend sessions are longer.** Days, times and lengths are all **settings in the app**, never hard-coded.
@@ -254,3 +261,10 @@ Check every model against these rules.
 | 2026-10-24 | One `User` table + `UserRole` + `StudentProfile` + `Guardianship` (normalized) |
 | 2026-10-24 | Database conventions adopted (section 10) |
 | 2026-10-24 | Student login: username + 4-digit PIN, remember device, lockout; adults: phone + password; "who is learning?" picker later |
+| 2026-11-07 | App text in simple English (Kinyarwanda only for the Ikinyarwanda subject and SMS reminders) |
+| 2026-11-07 | Design: blue theme, Atkinson Hyperlegible font, illustrated login page |
+| 2026-11-07 | Follow the REB curriculum and NESA setting/marking exactly; support every PLE question type |
+| 2026-11-07 | Human-marked answers go to a reviewer marking queue; AI-suggested marks later |
+| 2026-11-07 | Answer keys stored as JSONB per question part, validated by Zod |
+| 2026-11-07 | Question sources: REB pupil books (every exercise), NESA past papers, mock exams, extra practice; coverage tracked |
+| 2026-11-07 | Mock exam cadence (see section 4) |

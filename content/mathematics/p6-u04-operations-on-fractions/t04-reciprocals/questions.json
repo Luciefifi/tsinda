@@ -1,0 +1,45 @@
+[
+  {
+    "key": "math-p6-u04-t04-aa44",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.4, p. 56",
+    "instructions": "Find the reciprocal of the following:",
+    "parts": [
+      {
+        "label": "a",
+        "prompt": "4",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "1/4" },
+        "explanation": "4 = 4/1. Turn it upside down: 1/4. Check: 4 × 1/4 = 1."
+      },
+      {
+        "label": "b",
+        "prompt": "25",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "1/25" },
+        "explanation": "25 = 25/1. Turn it upside down: 1/25."
+      },
+      {
+        "label": "c",
+        "prompt": "3/7",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "7/3" },
+        "explanation": "Turn 3/7 upside down: 7/3 (which is also 2 1/3)."
+      },
+      {
+        "label": "d",
+        "prompt": "8/11",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "11/8" },
+        "explanation": "Turn 8/11 upside down: 11/8 (which is also 1 3/8)."
+      },
+      {
+        "label": "e",
+        "prompt": "2 3/4",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "4/11" },
+        "explanation": "First change 2 3/4 to an improper fraction: 11/4. Then turn it upside down: 4/11."
+      }
+    ]
+  }
+]

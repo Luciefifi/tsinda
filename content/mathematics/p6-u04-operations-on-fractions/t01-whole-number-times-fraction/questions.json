@@ -1,0 +1,44 @@
+[
+  {
+    "key": "math-p6-u04-t01-aa41-q1",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.1, Q1, p. 53",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "Multiply 169 by 4/13.",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "52" },
+        "explanation": "169 × 4/13 = (169 × 4) ÷ 13 = 676 ÷ 13 = 52. Quicker: 169 ÷ 13 = 13, then 13 × 4 = 52."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t01-aa41-q2",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.1, Q2, p. 53",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "What is the product of 62 by 3 1/4?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "201 1/2" },
+        "explanation": "First change 3 1/4 to an improper fraction: 3 1/4 = 13/4. Then 62 × 13/4 = 806/4 = 403/2 = 201 1/2."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t01-aa41-q3",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.1, Q3, p. 53",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "Calculate the product of 102 by 4 1/5.",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "428 2/5" },
+        "explanation": "4 1/5 = 21/5. Then 102 × 21/5 = 2142/5 = 428 2/5 (which is also 428.4)."
+      }
+    ]
+  }
+]

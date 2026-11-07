@@ -11,7 +11,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "create-student": "tsx --conditions=react-server --env-file=.env scripts/create-student.ts",
-    "prepare": "node scripts/install-git-hooks.mjs"
+    "prepare": "node scripts/install-git-hooks.mjs",
+    "content:load": "tsx --conditions=react-server --env-file=.env scripts/load-content.ts"
+
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",

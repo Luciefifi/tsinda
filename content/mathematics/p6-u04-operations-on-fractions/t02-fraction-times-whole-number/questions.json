@@ -1,0 +1,44 @@
+[
+  {
+    "key": "math-p6-u04-t02-aa42-q1",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.2, Q1, p. 54",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "What is 1/4 of 20 mangoes?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "5" },
+        "explanation": "\"Of\" means multiply: 1/4 × 20 = 20/4 = 5 mangoes."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t02-aa42-q2",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.2, Q2, p. 54",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "Multiply: 3/7 × 7",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "3" },
+        "explanation": "3/7 × 7 = (3 × 7) / 7 = 21/7 = 3."
+      }
+    ]
+  },
+  {
+    "key": "math-p6-u04-t02-aa42-q3",
+    "source": "pupil_book",
+    "sourceRef": "P6 Mathematics PB (REB 2026), Unit 4, Application activity 4.2, Q3, p. 54",
+    "parts": [
+      {
+        "label": "",
+        "prompt": "What is the product of 1 2/5 and 15?",
+        "marks": 1,
+        "answer": { "type": "number", "answer": "21" },
+        "explanation": "1 2/5 = 7/5. Then 7/5 × 15 = 105/5 = 21."
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "key": "math-p6-u04-t01-q1",
+    "source": "tsinda",
+    "sourceRef": "Tsinda",
+    "stimulus": "no-such-table",
+    "parts": [{ "label": "", "prompt": "Use the table to answer.", "marks": 1, "answer": { "type": "number", "answer": "2" } }]
+  }
+]

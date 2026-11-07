@@ -29,4 +29,5 @@ These are REB's revised curriculum files for the 2026/27 school year, which is t
 
 - `syllabus-p4-p6/`: units and competences for P4–P6. P4–P6 content can all appear in the PLE.
 - `schemes-of-work-p6/`: the term-by-term teaching order for P6.
-- Source: https://elearning.reb.rw/course/view.php?id=1806. P6 pupil books and teacher guides are on the same page but were not downloaded.
+- `pupil-books/p4/`, `p5/`, `p6/`: the revised 2026–2027 pupil books for the five PLE subjects (`mathematics`, `english`, `kinyarwanda`, `set`, `srs`). Their application activities and end-of-unit assessments are the exercises Tsinda must cover. Downloaded on 2026-11-07.
+- Source: https://elearning.reb.rw/course/view.php?id=1806. Teacher guides are on the same page but were not downloaded.

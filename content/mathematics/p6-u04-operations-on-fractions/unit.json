@@ -1,0 +1,19 @@
+{
+  "key": "math-p6-u04",
+  "grade": 6,
+  "number": 4,
+  "title": "Operations on fractions",
+  "keyCompetence": "Apply fractions in daily life situations to solve related problems.",
+  "topics": [
+    { "key": "math-p6-u04-t01", "number": 1, "title": "Multiplying a whole number by a fraction", "folder": "t01-whole-number-times-fraction" },
+    { "key": "math-p6-u04-t02", "number": 2, "title": "Multiplying a fraction by a whole number", "folder": "t02-fraction-times-whole-number" },
+    { "key": "math-p6-u04-t03", "number": 3, "title": "Multiplying a fraction by a fraction", "folder": "t03-fraction-times-fraction" },
+    { "key": "math-p6-u04-t04", "number": 4, "title": "Finding reciprocals", "folder": "t04-reciprocals" },
+    { "key": "math-p6-u04-t05", "number": 5, "title": "Dividing a whole number by a fraction", "folder": "t05-whole-number-divided-by-fraction" },
+    { "key": "math-p6-u04-t06", "number": 6, "title": "Dividing a fraction by a whole number", "folder": "t06-fraction-divided-by-whole-number" },
+    { "key": "math-p6-u04-t07", "number": 7, "title": "Dividing a fraction by a fraction", "folder": "t07-fraction-divided-by-fraction" },
+    { "key": "math-p6-u04-t08", "number": 8, "title": "Multiplying and dividing fractions together", "folder": "t08-multiplying-and-dividing" },
+    { "key": "math-p6-u04-t09", "number": 9, "title": "Word problems with fractions", "folder": "t09-word-problems" },
+    { "key": "math-p6-u04-t10", "number": 10, "title": "End of unit assessment", "folder": "t10-end-unit-assessment" }
+  ]
+}
