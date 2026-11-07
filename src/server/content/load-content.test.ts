@@ -90,4 +90,23 @@ describe("loadContent", () => {
     expect(report.missingFromFiles).toEqual(["math-p6-u04-t01-q2"]);
     expect(await prisma.question.count()).toBe(2);
   });
+
+  it("keeps questions in file order, and reordering needs no new review", async () => {
+    await loadContent(prisma, readValid());
+    await prisma.question.update({
+      where: { key: "math-p6-u04-t01-q1" },
+      data: { status: "PUBLISHED", reviewedAt: new Date() },
+    });
+
+    const swapped = structuredClone(readValid());
+    swapped.units[0].topics[0].questions.reverse();
+    const report = await loadContent(prisma, swapped);
+
+    expect(report).toMatchObject({ updated: 0, sentBackToDraft: [] });
+    const questions = await prisma.question.findMany({ orderBy: { sortOrder: "asc" }, select: { key: true, status: true } });
+    expect(questions).toEqual([
+      { key: "math-p6-u04-t01-q2", status: "DRAFT" },
+      { key: "math-p6-u04-t01-q1", status: "PUBLISHED" },
+    ]);
+  });
 });

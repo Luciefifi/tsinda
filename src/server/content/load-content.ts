@@ -115,9 +115,9 @@ async function saveUnit(tx: Tx, unit: ContentUnit, subjectId: string, counts: Co
     if (topic.lesson) {
       await saveLesson(tx, savedTopic.id, `${topic.key}-lesson`, topic.title, topic.lesson, counts);
     }
-    for (const question of topic.questions) {
+    for (const [sortOrder, question] of topic.questions.entries()) {
       const stimulusId = question.stimulus ? stimulusIds.get(question.stimulus)! : null;
-      await saveQuestion(tx, savedTopic.id, stimulusId, question, counts);
+      await saveQuestion(tx, savedTopic.id, stimulusId, sortOrder, question, counts);
     }
   }
 }
@@ -154,12 +154,14 @@ async function saveQuestion(
   tx: Tx,
   topicId: string,
   stimulusId: string | null,
+  sortOrder: number,
   question: ContentQuestion,
   counts: Counts,
 ): Promise<void> {
   const data = {
     topicId,
     stimulusId,
+    sortOrder,
     source: question.source.toUpperCase() as QuestionSource,
     sourceRef: question.sourceRef,
     instructions: question.instructions ?? null,
@@ -180,7 +182,7 @@ async function saveQuestion(
 
   const existing = await tx.question.findUnique({
     where: { key: question.key },
-    select: { id: true, contentHash: true, status: true },
+    select: { id: true, contentHash: true, status: true, sortOrder: true },
   });
 
   if (!existing) {
@@ -189,6 +191,10 @@ async function saveQuestion(
     return;
   }
   if (existing.contentHash === question.hash) {
+    // Only its place in the file changed: move it, without a new review.
+    if (existing.sortOrder !== sortOrder) {
+      await tx.question.update({ where: { id: existing.id }, data: { sortOrder } });
+    }
     counts.unchanged++;
     return;
   }

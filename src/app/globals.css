@@ -13,9 +13,18 @@
   --color-ink: #1f2937;
 }
 
+/* Atkinson Hyperlegible draws 0 with a dot inside. Exam papers and textbooks
+   print a plain 0, so digits (and only digits) come from the device's own
+   font: Roboto on Android, Segoe UI on Windows. Nothing extra is downloaded. */
+@font-face {
+  font-family: "Tsinda Digits";
+  src: local("Roboto"), local("Segoe UI"), local("Helvetica Neue"), local("Arial");
+  unicode-range: U+0030-0039;
+}
+
 /* The font comes from layout.tsx, so it must be read at runtime ("inline"). */
 @theme inline {
-  --font-sans: var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Tsinda Digits", var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {

@@ -111,7 +111,11 @@ export function readContent(contentDir: string): ContentTree {
         }
 
         const lessonFile = path.join(topicDir, "lesson.md");
-        const lessonBody = existsSync(lessonFile) ? readFileSync(lessonFile, "utf8").trim() : null;
+        // Windows and Linux end lines differently (\r\n or \n). Treat them the
+        // same, so checking a file out on another computer doesn't change it.
+        const lessonBody = existsSync(lessonFile)
+          ? readFileSync(lessonFile, "utf8").replace(/\r\n/g, "\n").trim()
+          : null;
 
         const questionsFile = path.join(topicDir, "questions.json");
         const questions = existsSync(questionsFile) ? (readJson(questionsFile, questionsFileSchema) ?? []) : [];

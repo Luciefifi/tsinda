@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
 import { Logo } from "@/components/ui/logo";
@@ -42,6 +43,19 @@ export default function LoginPage() {
             <LoginForm />
             <p className="mt-6 text-center text-sm text-slate-600">Forgot your PIN? Ask your parent or teacher.</p>
           </div>
+
+          <Link
+            href="/login/adult"
+            className="flex w-full items-center justify-between gap-3 rounded-2xl border-2 border-brand-700 bg-white px-5 py-4 text-brand-800 shadow-sm hover:bg-brand-50"
+          >
+            <span className="flex flex-col">
+              <span className="font-bold">Parent or teacher?</span>
+              <span className="text-sm text-slate-600">Log in with your phone number</span>
+            </span>
+            <span aria-hidden="true" className="text-2xl font-bold">
+              →
+            </span>
+          </Link>
         </div>
 
         <GirlRaisingHand className="hidden w-56 lg:block" />

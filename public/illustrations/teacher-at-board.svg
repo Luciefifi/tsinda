@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <!-- soft background -->
+  <circle cx="120" cy="108" r="88" fill="#E0F2FE"/>
+
+  <!-- blackboard -->
+  <rect x="14" y="30" width="126" height="86" rx="6" fill="#8B5E34"/>
+  <rect x="20" y="36" width="114" height="74" rx="3" fill="#1F4D3A"/>
+  <text x="77" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">½ + ¼ = ¾</text>
+  <path d="M34 88h40M34 96h62" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+  <rect x="98" y="110" width="22" height="5" rx="2" fill="#FFFFFF" opacity="0.8"/>
+  <!-- board stand -->
+  <rect x="34" y="116" width="8" height="70" rx="3" fill="#6B4423"/>
+  <rect x="112" y="116" width="8" height="70" rx="3" fill="#6B4423"/>
+
+  <!-- teacher: adult proportions (small head, tall body) -->
+  <!-- legs and shoes -->
+  <rect x="164" y="150" width="11" height="38" rx="5" fill="#5C3A21"/>
+  <rect x="181" y="150" width="11" height="38" rx="5" fill="#5C3A21"/>
+  <path d="M160 190c0-3 3-4 7-4h8v5h-15z" fill="#1F1A17"/>
+  <path d="M196 190c0-3-3-4-7-4h-8v5h15z" fill="#1F1A17"/>
+  <!-- long skirt -->
+  <path d="M158 112h40l8 46h-56z" fill="#075985"/>
+  <!-- blouse -->
+  <path d="M156 84c0-10 10-17 22-17s22 7 22 17v30h-44z" fill="#FAD201"/>
+  <path d="M170 68l8 9 8-9" fill="#FFFFFF"/>
+  <!-- arm pointing at the board, holding chalk -->
+  <path d="M160 84c-10 6-20 10-30 12" fill="none" stroke="#FAD201" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 96l-11 0" stroke="#5C3A21" stroke-width="8" stroke-linecap="round"/>
+  <rect x="104" y="94" width="10" height="4" rx="1.5" fill="#FFFFFF"/>
+  <!-- other arm holding a book -->
+  <path d="M197 84c6 10 7 20 2 30" fill="none" stroke="#FAD201" stroke-width="10" stroke-linecap="round"/>
+  <rect x="186" y="104" width="22" height="28" rx="2" fill="#0369A1" transform="rotate(8 197 118)"/>
+  <ellipse cx="197" cy="116" rx="5.5" ry="4.5" fill="#5C3A21"/>
+  <!-- neck -->
+  <rect x="172" y="54" width="12" height="15" rx="4" fill="#5C3A21"/>
+  <!-- head -->
+  <ellipse cx="178" cy="42" rx="12" ry="15" fill="#5C3A21"/>
+  <!-- hair in a bun -->
+  <circle cx="187" cy="27" r="7" fill="#1F1A17"/>
+  <path d="M166 40c0-11 5-16 12-16s12 5 12 16c-3-5-7-8-12-8s-9 3-12 8z" fill="#1F1A17"/>
+  <!-- face, looking at the board -->
+  <ellipse cx="172" cy="43" rx="1.7" ry="2.1" fill="#1F1A17"/>
+  <ellipse cx="181" cy="43" rx="1.7" ry="2.1" fill="#1F1A17"/>
+  <path d="M169 38.5l5-1M178 37.5l5 1" stroke="#1F1A17" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M172 50q4 3 8 0" fill="none" stroke="#3A2416" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- small earrings -->
+  <circle cx="166.5" cy="47" r="1.6" fill="#FAD201"/>
+  <circle cx="189.5" cy="47" r="1.6" fill="#FAD201"/>
+</svg>
