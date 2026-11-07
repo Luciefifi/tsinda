@@ -9,6 +9,8 @@ export type Actor = {
   fullName: string;
   sessionId: string;
   permissions: ReadonlySet<PermissionKey>;
+  // True until the person replaces a password an admin set for them.
+  mustChangePassword: boolean;
 };
 
 export function can(actor: Actor | null, permission: PermissionKey): boolean {

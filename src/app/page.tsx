@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/ui/logo";
 import { can } from "@/server/auth/access";
 import { requireActor } from "@/server/auth/actor";
+import { hasPassword } from "@/server/services/account.service";
 import { logoutAction } from "./actions";
 
 // The page frame is static and loads instantly. Only the part that depends on
@@ -34,6 +35,7 @@ export default function HomePage() {
 
 async function Welcome() {
   const actor = await requireActor();
+  const isAdult = await hasPassword(actor);
 
   return (
     <div className="flex flex-col gap-4">
@@ -42,12 +44,27 @@ async function Welcome() {
         {can(actor, "study:take-sessions") && <p className="text-slate-600">Your lessons will appear here soon.</p>}
       </div>
 
+      {(can(actor, "people:manage") || can(actor, "roles:manage")) && (
+        <Link
+          href={can(actor, "people:manage") ? "/admin" : "/admin/roles"}
+          className="rounded-xl bg-brand-700 px-5 py-3 text-center text-lg font-bold text-white hover:bg-brand-800"
+        >
+          ⚙️ Admin
+        </Link>
+      )}
+
       {can(actor, "content:review") && (
         <Link
           href="/review"
           className="rounded-xl bg-brand-700 px-5 py-3 text-center text-lg font-bold text-white hover:bg-brand-800"
         >
-          Review content
+          📝 Review content
+        </Link>
+      )}
+
+      {isAdult && (
+        <Link href="/account/password" className="text-center font-bold text-brand-700 underline">
+          Change my password
         </Link>
       )}
     </div>

@@ -19,6 +19,8 @@ const LAST_USED_PRECISION_MS = HOUR_MS;
 export type SessionUser = {
   id: string;
   fullName: string;
+  // True until the person replaces a password an admin set for them.
+  mustChangePassword: boolean;
 };
 
 export type ValidatedSession = {
@@ -54,6 +56,7 @@ export async function validateSession(token: string): Promise<ValidatedSession |
           id: true,
           fullName: true,
           isActive: true,
+          mustChangePassword: true,
           roles: {
             select: {
               role: {
@@ -101,7 +104,11 @@ export async function validateSession(token: string): Promise<ValidatedSession |
   return {
     sessionId,
     expiresAt,
-    user: { id: session.user.id, fullName: session.user.fullName },
+    user: {
+      id: session.user.id,
+      fullName: session.user.fullName,
+      mustChangePassword: session.user.mustChangePassword,
+    },
     permissions,
   };
 }
@@ -111,9 +118,13 @@ export async function invalidateSession(sessionId: string): Promise<void> {
   await prisma.session.deleteMany({ where: { id: sessionId } });
 }
 
-// Log out every device of a user, e.g. after a password change or a lost phone.
-export async function invalidateAllUserSessions(userId: string): Promise<void> {
-  await prisma.session.deleteMany({ where: { userId } });
+// Log out every device of a user, e.g. after a password reset or a lost
+// phone. `exceptSessionId` keeps one device logged in: the one the person is
+// using to change their own password.
+export async function invalidateAllUserSessions(userId: string, exceptSessionId?: string): Promise<void> {
+  await prisma.session.deleteMany({
+    where: { userId, ...(exceptSessionId ? { id: { not: exceptSessionId } } : {}) },
+  });
 }
 
 // Cleanup for a scheduled job. Uses the index on expires_at.

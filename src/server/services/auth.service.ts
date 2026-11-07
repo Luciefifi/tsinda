@@ -9,13 +9,14 @@ const MAX_FAILED_ATTEMPTS = 5;
 const LOCKOUT_MS = 15 * 60 * 1000;
 
 export type LoginResult =
-  | { ok: true; token: string }
+  | { ok: true; token: string; mustChangePassword: boolean }
   | { ok: false; reason: "invalid_credentials" }
   | { ok: false; reason: "locked"; lockedUntil: Date };
 
 type LoginCandidate = {
   id: string;
   isActive: boolean;
+  mustChangePassword: boolean;
   failedLoginCount: number;
   lockedUntil: Date | null;
   secretHash: string | null;
@@ -24,6 +25,7 @@ type LoginCandidate = {
 const candidateSelect = {
   id: true,
   isActive: true,
+  mustChangePassword: true,
   failedLoginCount: true,
   lockedUntil: true,
 } as const;
@@ -72,7 +74,7 @@ async function attemptLogin(user: LoginCandidate | null, secret: string): Promis
     where: { id: user.id },
     data: { failedLoginCount: 0, lockedUntil: null, lastLoginAt: new Date() },
   });
-  return { ok: true, token: await createSession(user.id) };
+  return { ok: true, token: await createSession(user.id), mustChangePassword: user.mustChangePassword };
 }
 
 async function recordFailedAttempt(userId: string): Promise<LoginResult> {

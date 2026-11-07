@@ -1,12 +1,11 @@
 // Creates an adult account (admin, reviewer or guardian) from the command line,
-// until the admin screens exist. Usage:
-//   npm run create-adult -- --name "Aline Uwase" --phone 0788123456 --password "a long password" --roles reviewer,guardian
+// for the very first admin (before anyone can use the admin screens). Usage:
+//   npm run create-adult -- --name "Aline Uwase" --phone 0788123456 --password "Kigali@2027" --roles admin
 import { parseArgs } from "node:util";
+import { passwordProblems } from "@/lib/password-rules";
 import { normalizeRwandaPhone } from "@/lib/phone";
 import { hashSecret } from "@/server/auth/hashing";
 import { prisma } from "@/server/db";
-
-const MIN_PASSWORD_LENGTH = 8;
 
 const { values } = parseArgs({
   options: {
@@ -27,9 +26,8 @@ async function main() {
     throw new Error('Usage: npm run create-adult -- --name "Full Name" --phone 0788123456 --password "..." --roles reviewer');
   }
   if (!phone) throw new Error(`"${values.phone}" is not a Rwandan mobile number.`);
-  if (password.length < MIN_PASSWORD_LENGTH) {
-    throw new Error(`The password must be at least ${MIN_PASSWORD_LENGTH} characters.`);
-  }
+  const problems = passwordProblems(password);
+  if (problems.length > 0) throw new Error(`Password: ${problems.join(" ")}`);
 
   const roles = await prisma.role.findMany({ where: { key: { in: roleKeys } } });
   const unknown = roleKeys.filter((key) => !roles.some((role) => role.key === key));

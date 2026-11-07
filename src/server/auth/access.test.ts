@@ -6,6 +6,7 @@ const student: Actor = {
   fullName: "Keza",
   sessionId: "session-1",
   permissions: new Set(["study:take-sessions", "progress:view-self"]),
+  mustChangePassword: false,
 };
 
 describe("can", () => {

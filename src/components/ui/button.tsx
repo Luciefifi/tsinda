@@ -1,12 +1,14 @@
 import type { ComponentProps } from "react";
 
 type ButtonProps = ComponentProps<"button"> & {
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "danger";
 };
 
 const variants = {
   primary: "bg-brand-700 text-white hover:bg-brand-800",
   secondary: "border-2 border-brand-700 bg-white text-brand-700 hover:bg-brand-50",
+  // For actions that take something away (turn off, remove, delete).
+  danger: "border-2 border-red-700 bg-white text-red-700 hover:bg-red-50",
 };
 
 // Big, easy-to-tap buttons (at least 48px high) for small fingers on a phone.

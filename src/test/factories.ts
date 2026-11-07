@@ -50,5 +50,6 @@ export async function actorFor(userId: string): Promise<Actor> {
     fullName: session.user.fullName,
     sessionId: session.sessionId,
     permissions: session.permissions,
+    mustChangePassword: session.user.mustChangePassword,
   };
 }
